@@ -40,104 +40,290 @@
         "Let's design a gym workout for you! Are you looking to focus on strength, endurance, or weight loss?"
       ],
       "context_filter": "workout"
-    }
-  ,
-  {
-    "tag": "exercise_form",
-    "patterns": [
-      "How do I do a proper push-up?",
-      "What is the correct form for burpees?",
-      "Can you explain how to do crunches?",
-      "How do I perform side bends?",
-      "What is the proper way to do a farmer's walk?",
-      "Can you guide me on squats?",
-      "How do I perform leg raises?",
-      "What is the correct form for pull-ups?",
-      "How do I do sit-ups properly?",
-      "Can you explain arm circles?",
-      "What is the proper way to do a bicep curl?",
-      "How should I do an overhead press?",
-      "Can you explain the correct plank position?",
-      "How do I perform lunges properly?",
-      "What is the form for jump squats?",
-      "How should I do skipping properly?",
-      "Can you guide me on tricep dips?",
-      "How do I do bicycle crunches?",
-      "What is the correct way to do jumping jacks?",
-      "What is the proper running form?"
-    ],
-    "responses": [
-      "For push-ups, keep your hands shoulder-width apart, lower your body until your chest is close to the ground, and push back up while keeping your core tight.",
-      "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively. Want a step-by-step video?",
-      "For crunches, lie on your back with your knees bent, lift your shoulders off the ground using your abs, and lower back down slowly.",
-      "Side bends are done by standing straight, bending sideways at your waist, and keeping your upper body aligned. Do not lean forward or backward.",
-      "The farmer's walk requires you to hold heavy weights in each hand, walk with your back straight, and engage your core.",
-      "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes. Want a video tutorial link?",
-      "Leg raises involve lying on your back and lifting your legs until they form a 90-degree angle with your body, keeping your lower back flat on the ground.",
-      "Pull-ups require a strong grip on the bar, pulling your chest towards the bar, and lowering yourself slowly.",
-      "Sit-ups involve lying on your back with knees bent, placing your hands behind your head or across your chest, and lifting your upper body towards your knees.",
-      "For arm circles, extend your arms to the sides and rotate them in small circles, gradually increasing the size of the circles.",
-      "A bicep curl involves holding a dumbbell, keeping your elbows close to your torso, and lifting the weight towards your shoulders.",
-      "The overhead press requires holding weights at shoulder level, pressing them upwards until your arms are fully extended, and lowering back down slowly.",
-      "For a plank, keep your body in a straight line from head to heels, support yourself on your elbows or hands, and engage your core.",
-      "For lunges, take a step forward, lower your body until your knees form 90-degree angles, and push back up to standing.",
-      "Jump squats combine a squat with an explosive jump, landing softly back into the squat position.",
-      "For skipping, use a rope, jump on the balls of your feet, and maintain a consistent rhythm while swinging the rope.",
-      "Tricep dips are done by lowering and raising your body using your arms on a stable surface, keeping your back close to the surface.",
-      "Bicycle crunches involve lying on your back, alternating elbow-to-knee touches while keeping your core engaged.",
-      "Jumping jacks involve jumping while spreading your legs and arms outward, then returning to the starting position.",
-      "For running, maintain an upright posture, keep your strides short, land softly on the balls of your feet, and swing your arms naturally."
-    ]
-  },
-  {
-    "tag": "weekly_routine",
-    "patterns": [
-      "Can you give me a weekly workout routine?",
-      "I need a workout schedule for the week",
-      "Help me plan a weekly fitness routine",
-      "What should I do each day for a week?",
-      "Suggest a weekly workout plan",
-      "Can you create a weekly routine for me?"
-    ],
-    "responses": [
-      "Sure! Here's a general weekly workout plan:\n- Monday: Cardio (running, cycling, or skipping)\n- Tuesday: Strength training (upper body)\n- Wednesday: Yoga or active recovery\n- Thursday: Strength training (lower body)\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light stretching. \nWould you like me to adjust this for your fitness level or goals?",
-      "Here’s a sample weekly plan:\n- Monday: Full-body strength\n- Tuesday: Cardio or endurance training\n- Wednesday: Core and flexibility exercises\n- Thursday: Strength training (upper body focus)\n- Friday: HIIT or speed training\n- Saturday: Fun activity (sports, dance, etc.)\n- Sunday: Rest or active recovery. \nDo you prefer gym or home workouts?",
-      "Here’s a suggested plan for the week:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Cardio (cycling or running)\n- Wednesday: Pull day (back, biceps, rear delts)\n- Thursday: Active recovery (yoga or walking)\n- Friday: Leg day (squats, lunges, etc.)\n- Saturday: Core and flexibility training\n- Sunday: Rest day. \nWould you like to focus on strength, cardio, or flexibility?"
-    ]
-  },
-  {
-    "tag": "weekly_routine_personalized",
-    "patterns": [
-      "Adjust the routine for weight loss",
-      "Can you make it for muscle building?",
-      "I prefer gym workouts",
-      "I only have dumbbells at home",
-      "I am a beginner, help me with a weekly plan",
-      "I am intermediate, customize the schedule for me",
-      "I am advanced, give me a challenging routine"
-    ],
-    "responses": [
-      "For weight loss, I recommend:\n- Monday: HIIT cardio\n- Tuesday: Strength training (upper body)\n- Wednesday: Active recovery (walking or yoga)\n- Thursday: Lower body workout\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light activity. Would you like me to include meal suggestions?",
-      "For muscle building:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Pull day (back, biceps)\n- Wednesday: Leg day (squats, lunges, deadlifts)\n- Thursday: Rest\n- Friday: Upper body strength\n- Saturday: Core and flexibility exercises\n- Sunday: Rest. Do you prefer higher volume or heavier weights?",
-      "For a home-based routine with dumbbells:\n- Monday: Full-body dumbbell workout\n- Tuesday: Cardio (skipping, running, or cycling)\n- Wednesday: Core and stretching\n- Thursday: Dumbbell strength training (upper body focus)\n- Friday: HIIT (using body weight or light weights)\n- Saturday: Lower body strength (lunges, squats)\n- Sunday: Rest or yoga. Need exercise specifics?"
-    ]
-  },
-  {
-    "tag": "weekly_routine_followup",
-    "patterns": [
-      "Can you add rest days?",
-      "Include yoga in the schedule",
-      "Focus more on cardio",
-      "I want balanced training",
-      "How about flexibility exercises?",
-      "Add sports activities"
-    ],
-    "responses": [
-      "Here’s an updated plan with more cardio:\n- Monday: Cardio (running or cycling)\n- Tuesday: Strength training\n- Wednesday: Cardio again (HIIT or endurance)\n- Thursday: Yoga or flexibility training\n- Friday: Strength training (full body)\n- Saturday: Sports activity or fun workout\n- Sunday: Rest. Would you like me to provide workout durations?",
-      "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
-    ]
-  },
-  
+    },
+    {
+      "tag": "push_up_form",
+      "patterns": [
+        "How do I do a proper push-up?",
+        "What is the correct form for push-ups?",
+        "Can you explain how to do push-ups?"
+      ],
+      "responses": [
+        "For push-ups, keep your hands shoulder-width apart, lower your body until your chest is close to the ground, and push back up while keeping your core tight."
+      ]
+    },
+    {
+      "tag": "burpee_form",
+      "patterns": [
+        "What is the correct form for burpees?",
+        "How do I do a proper burpee?",
+        "Can you guide me on burpees?"
+      ],
+      "responses": [
+        "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively. Want a step-by-step video?"
+      ]
+    },
+    {
+      "tag": "crunch_form",
+      "patterns": [
+        "Can you explain how to do crunches?",
+        "How do I perform crunches properly?",
+        "What is the correct way to do crunches?"
+      ],
+      "responses": [
+        "For crunches, lie on your back with your knees bent, lift your shoulders off the ground using your abs, and lower back down slowly."
+      ]
+    },
+    {
+      "tag": "side_bend_form",
+      "patterns": [
+        "How do I perform side bends?",
+        "What is the proper way to do side bends?",
+        "Can you guide me on side bends?"
+      ],
+      "responses": [
+        "Side bends are done by standing straight, bending sideways at your waist, and keeping your upper body aligned. Do not lean forward or backward."
+      ]
+    },
+    {
+      "tag": "farmers_walk_form",
+      "patterns": [
+        "What is the proper way to do a farmer's walk?",
+        "How do I perform the farmer's walk?",
+        "Can you explain the farmer's walk form?"
+      ],
+      "responses": [
+        "The farmer's walk requires you to hold heavy weights in each hand, walk with your back straight, and engage your core."
+      ]
+    },
+    {
+      "tag": "squat_form",
+      "patterns": [
+        "Can you guide me on squats?",
+        "What is the proper way to do squats?",
+        "How should I perform squats?"
+      ],
+      "responses": [
+        "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes. Want a video tutorial link?"
+      ]
+    },
+    {
+      "tag": "leg_raise_form",
+      "patterns": [
+        "How do I perform leg raises?",
+        "What is the correct way to do leg raises?",
+        "Can you guide me on leg raises?"
+      ],
+      "responses": [
+        "Leg raises involve lying on your back and lifting your legs until they form a 90-degree angle with your body, keeping your lower back flat on the ground."
+      ]
+    },
+    {
+      "tag": "pullup_form",
+      "patterns": [
+        "What is the correct form for pull-ups?",
+        "How do I perform pull-ups?",
+        "Can you guide me on pull-ups?"
+      ],
+      "responses": [
+        "Pull-ups require a strong grip on the bar, pulling your chest towards the bar, and lowering yourself slowly."
+      ]
+    },
+    {
+      "tag": "situp_form",
+      "patterns": [
+        "How do I do sit-ups properly?",
+        "What is the correct form for sit-ups?",
+        "Can you explain sit-ups?"
+      ],
+      "responses": [
+        "Sit-ups involve lying on your back with knees bent, placing your hands behind your head or across your chest, and lifting your upper body towards your knees."
+      ]
+    },
+    {
+      "tag": "arm_circle_form",
+      "patterns": [
+        "Can you explain arm circles?",
+        "What is the proper way to do arm circles?",
+        "How should I perform arm circles?"
+      ],
+      "responses": [
+        "For arm circles, extend your arms to the sides and rotate them in small circles, gradually increasing the size of the circles."
+      ]
+    },
+    {
+      "tag": "bicep_curl_form",
+      "patterns": [
+        "What is the proper way to do a bicep curl?",
+        "How do I perform bicep curls?",
+        "Can you explain bicep curls?"
+      ],
+      "responses": [
+        "A bicep curl involves holding a dumbbell, keeping your elbows close to your torso, and lifting the weight towards your shoulders."
+      ]
+    },
+    {
+      "tag": "overhead_press_form",
+      "patterns": [
+        "How should I do an overhead press?",
+        "Can you explain the overhead press form?",
+        "What is the correct way to perform an overhead press?"
+      ],
+      "responses": [
+        "The overhead press requires holding weights at shoulder level, pressing them upwards until your arms are fully extended, and lowering back down slowly."
+      ]
+    },
+    {
+      "tag": "plank_form",
+      "patterns": [
+        "Can you explain the correct plank position?",
+        "What is the proper way to do a plank?",
+        "How should I perform a plank?"
+      ],
+      "responses": [
+        "For a plank, keep your body in a straight line from head to heels, support yourself on your elbows or hands, and engage your core."
+      ]
+    },
+    {
+      "tag": "lunge_form",
+      "patterns": [
+        "How do I perform lunges properly?",
+        "What is the correct way to do lunges?",
+        "Can you guide me on lunges?"
+      ],
+      "responses": [
+        "For lunges, take a step forward, lower your body until your knees form 90-degree angles, and push back up to standing."
+      ]
+    },
+    {
+      "tag": "jump_squat_form",
+      "patterns": [
+        "What is the form for jump squats?",
+        "How do I perform jump squats?",
+        "Can you guide me on jump squats?"
+      ],
+      "responses": [
+        "Jump squats combine a squat with an explosive jump, landing softly back into the squat position."
+      ]
+    },
+    {
+      "tag": "skipping_form",
+      "patterns": [
+        "How should I do skipping properly?",
+        "Can you explain skipping?",
+        "What is the correct way to do skipping?"
+      ],
+      "responses": [
+        "For skipping, use a rope, jump on the balls of your feet, and maintain a consistent rhythm while swinging the rope."
+      ]
+    },
+    {
+      "tag": "tricep_dip_form",
+      "patterns": [
+        "Can you guide me on tricep dips?",
+        "What is the correct way to do tricep dips?",
+        "How do I perform tricep dips?"
+      ],
+      "responses": [
+        "Tricep dips are done by lowering and raising your body using your arms on a stable surface, keeping your back close to the surface."
+      ]
+    },
+    {
+      "tag": "bicycle_crunch_form",
+      "patterns": [
+        "How do I do bicycle crunches?",
+        "Can you explain bicycle crunches?",
+        "What is the proper way to perform bicycle crunches?"
+      ],
+      "responses": [
+        "Bicycle crunches involve lying on your back, alternating elbow-to-knee touches while keeping your core engaged."
+      ]
+    },
+    {
+      "tag": "jumping_jack_form",
+      "patterns": [
+        "What is the correct way to do jumping jacks?",
+        "How should I perform jumping jacks?",
+        "Can you guide me on jumping jacks?"
+      ],
+      "responses": [
+        "Jumping jacks involve jumping while spreading your legs and arms outward, then returning to the starting position."
+      ]
+    },
+    {
+      "tag": "running_form",
+      "patterns": [
+        "What is the proper running form?",
+        "How do I run properly?",
+        "Can you explain running form?"
+      ],
+      "responses": [
+        "For running, maintain an upright posture, keep your strides short, land softly on the balls of your feet, and swing your arms naturally."
+      ]
+    },
+    {
+      "tag": "weekly_routine",
+      "patterns": [
+        "Can you give me a weekly workout routine?",
+        "I need a workout schedule for the week",
+        "Help me plan a weekly fitness routine",
+        "What should I do each day for a week?",
+        "Suggest a weekly workout plan",
+        "Can you create a weekly routine for me?"
+      ],
+      "responses": [
+        "Sure! Here's a general weekly workout plan:\n- Monday: Cardio (running, cycling, or skipping)\n- Tuesday: Strength training (upper body)\n- Wednesday: Yoga or active recovery\n- Thursday: Strength training (lower body)\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light stretching. \nWould you like me to adjust this for your fitness level or goals?",
+        "Here’s a sample weekly plan:\n- Monday: Full-body strength\n- Tuesday: Cardio or endurance training\n- Wednesday: Core and flexibility exercises\n- Thursday: Strength training (upper body focus)\n- Friday: HIIT or speed training\n- Saturday: Fun activity (sports, dance, etc.)\n- Sunday: Rest or active recovery. \nDo you prefer gym or home workouts?",
+        "Here’s a suggested plan for the week:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Cardio (cycling or running)\n- Wednesday: Pull day (back, biceps, rear delts)\n- Thursday: Active recovery (yoga or walking)\n- Friday: Leg day (squats, lunges, etc.)\n- Saturday: Core and flexibility training\n- Sunday: Rest day. \nWould you like to focus on strength, cardio, or flexibility?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_personalized",
+      "patterns": [
+        "Adjust the routine for weight loss",
+        "Can you make it for muscle building?",
+        "I prefer gym workouts",
+        "I only have dumbbells at home",
+        "I am a beginner, help me with a weekly plan",
+        "I am intermediate, customize the schedule for me",
+        "I am advanced, give me a challenging routine"
+      ],
+      "responses": [
+        "For weight loss, I recommend:\n- Monday: HIIT cardio\n- Tuesday: Strength training (upper body)\n- Wednesday: Active recovery (walking or yoga)\n- Thursday: Lower body workout\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light activity. Would you like me to include meal suggestions?",
+        "For muscle building:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Pull day (back, biceps)\n- Wednesday: Leg day (squats, lunges, deadlifts)\n- Thursday: Rest\n- Friday: Upper body strength\n- Saturday: Core and flexibility exercises\n- Sunday: Rest. Do you prefer higher volume or heavier weights?",
+        "For a home-based routine with dumbbells:\n- Monday: Full-body dumbbell workout\n- Tuesday: Cardio (skipping, running, or cycling)\n- Wednesday: Core and stretching\n- Thursday: Dumbbell strength training (upper body focus)\n- Friday: HIIT (using body weight or light weights)\n- Saturday: Lower body strength (lunges, squats)\n- Sunday: Rest or yoga. Need exercise specifics?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_followup",
+      "patterns": [
+        "Can you add rest days?",
+        "Include yoga in the schedule",
+        "Focus more on cardio",
+        "I want balanced training",
+        "How about flexibility exercises?",
+        "Add sports activities"
+      ],
+      "responses": [
+        "Here’s an updated plan with more cardio:\n- Monday: Cardio (running or cycling)\n- Tuesday: Strength training\n- Wednesday: Cardio again (HIIT or endurance)\n- Thursday: Yoga or flexibility training\n- Friday: Strength training (full body)\n- Saturday: Sports activity or fun workout\n- Sunday: Rest. Would you like me to provide workout durations?",
+        "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
       "tag": "motivation",
       "patterns": [
