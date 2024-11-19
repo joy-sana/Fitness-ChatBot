@@ -17,30 +17,202 @@
         "Hello! I'm here to help you stay healthy and motivated."
       ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
-      "tag": "workout_plan",
+      "tag": "weekly_routine_home",
       "patterns": [
-        "I want gym routine",
-        "Suggest a workout plan",
-        "Help me with a gym routine"
+        "Can you provide a weekly home workout routine?",
+        "What should my weekly exercise plan look like at home?",
+        "Suggest a home-based workout schedule.",
+        "How can I plan a week's workout at home?",
+        "I need a weekly exercise plan without equipment."
       ],
       "responses": [
-        "Sure! Are you looking for a home workout, gym routine, or something specific like yoga or strength training?"
-      ],
-      "context_set": "workout"
+        "Here's a weekly home workout plan: \nDay 1: Full-body HIIT\nDay 2: Core Strengthening\nDay 3: Rest or Light Stretching\nDay 4: Upper Body Strength\nDay 5: Cardio (Skipping or Running in Place)\nDay 6: Lower Body Workout\nDay 7: Yoga or Active Recovery."
+      ]
     },
     {
-      "tag": "gym_workout",
+      "tag": "weekly_routine_gym",
       "patterns": [
-        "gym routine",
-        "I want a gym workout",
-        "Tell me about gym exercises"
+        "What does a weekly gym routine look like?",
+        "Can you help me plan a gym workout schedule?",
+        "Suggest a weekly exercise plan for gym training.",
+        "How should I divide my gym sessions for the week?",
+        "I want a weekly gym workout routine. Can you help?"
       ],
       "responses": [
-        "Let's design a gym workout for you! Are you looking to focus on strength, endurance, or weight loss?"
-      ],
-      "context_filter": "workout"
+        "Here's a weekly gym routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Legs and Abs\nDay 5: Shoulders and Arms\nDay 6: Cardio or Circuit Training\nDay 7: Rest or Active Recovery."
+      ]
     },
+    {
+      "tag": "weekly_routine_strength",
+      "patterns": [
+        "What is a weekly routine for strength training?",
+        "How can I plan my week for strength improvement?",
+        "Suggest a weekly schedule for building strength.",
+        "Can you provide a strength-focused weekly workout?",
+        "How should I train for strength across the week?"
+      ],
+      "responses": [
+        "Weekly strength routine: \nDay 1: Deadlifts and Core\nDay 2: Squats and Lunges\nDay 3: Rest or Light Cardio\nDay 4: Bench Press and Push-ups\nDay 5: Pull-ups and Rows\nDay 6: Powerlifting or Functional Training\nDay 7: Stretching and Mobility Work."
+      ]
+    },
+    {
+      "tag": "weekly_routine_endurance",
+      "patterns": [
+        "What should a weekly endurance routine include?",
+        "How do I plan my week for better stamina?",
+        "Can you help with a weekly plan for endurance?",
+        "What is a good endurance workout schedule for the week?",
+        "Suggest a weekly routine to boost cardiovascular fitness."
+      ],
+      "responses": [
+        "Weekly endurance routine: \nDay 1: 30-minute Jog or Run\nDay 2: Interval Training (HIIT)\nDay 3: Rest or Light Yoga\nDay 4: Long-distance Running or Cycling\nDay 5: Cardio Circuit (Burpees, Jumping Jacks)\nDay 6: Swimming or Rowing\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_bodybuilding",
+      "patterns": [
+        "How do I plan a bodybuilding workout for the week?",
+        "Can you suggest a weekly bodybuilding routine?",
+        "What does a bodybuilding weekly schedule look like?",
+        "How should I divide my week for muscle building?",
+        "Provide a weekly routine for bodybuilding."
+      ],
+      "responses": [
+        "Bodybuilding weekly routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Shoulders and Abs\nDay 5: Legs and Glutes\nDay 6: Full-body Workout\nDay 7: Rest or Active Recovery."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    {
+      "tag": "strength",
+      "patterns": [
+        "How can I improve my strength?",
+        "What exercises are best for strength training?",
+        "Can you guide me on building muscle strength?",
+        "What should I do to get stronger?",
+        "Suggest a routine for strength improvement."
+      ],
+      "responses": [
+        "For building strength, focus on compound movements like deadlifts, squats, and bench presses with heavy weights and lower reps.",
+        "Strength training is best achieved with progressive overload. Would you like me to create a detailed plan for you?"
+      ]
+    },
+    {
+      "tag": "endurance",
+      "patterns": [
+        "How do I increase my stamina?",
+        "What exercises can improve endurance?",
+        "Can you guide me on building cardiovascular endurance?",
+        "I want to work on my overall stamina. Suggestions?",
+        "What should I do to last longer in workouts?"
+      ],
+      "responses": [
+        "Endurance can be improved with consistent cardio activities like running, cycling, or swimming combined with interval training.",
+        "For better stamina, include activities like jogging, circuit training, or high-rep bodyweight exercises in your routine."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How do I lose weight effectively?",
+        "Can you suggest workouts for weight loss?",
+        "What is the best way to burn fat?",
+        "I want to shed some pounds. Help me!",
+        "What exercises are good for losing weight?"
+      ],
+      "responses": [
+        "For weight loss, combine high-intensity interval training (HIIT) with strength training and maintain a calorie deficit.",
+        "Cardio, strength training, and a balanced diet can help you lose weight effectively. Would you like a sample plan?"
+      ]
+    },
+    {
+      "tag": "weight_gain",
+      "patterns": [
+        "How can I gain weight healthily?",
+        "What exercises help with weight gain?",
+        "I want to build muscle and gain weight. Suggestions?",
+        "What is the best way to bulk up?",
+        "Can you guide me on gaining healthy weight?"
+      ],
+      "responses": [
+        "To gain weight, focus on strength training with compound exercises and ensure you're eating in a calorie surplus.",
+        "Building muscle mass through resistance training and consuming protein-rich meals will help with healthy weight gain."
+      ]
+    },
+    {
+      "tag": "training_from_gym",
+      "patterns": [
+        "What workouts can I do in the gym?",
+        "Can you suggest a gym training routine?",
+        "How should I train if I go to the gym?",
+        "What equipment should I use at the gym?",
+        "Give me a gym-based workout plan."
+      ],
+      "responses": [
+        "At the gym, you can use free weights, machines, and cables to target different muscle groups. Would you like a plan for strength or endurance?",
+        "Gym training allows for a variety of exercises like bench presses, deadlifts, and lat pulldowns. Let me know your goals to customize it."
+      ]
+    },
+    {
+      "tag": "training_from_home",
+      "patterns": [
+        "How can I train at home?",
+        "What are some home workout routines?",
+        "Can you suggest exercises without equipment?",
+        "How do I stay fit while working out at home?",
+        "What bodyweight exercises can I do at home?"
+      ],
+      "responses": [
+        "Home workouts can include push-ups, squats, planks, and burpees. Resistance bands and dumbbells can add variety.",
+        "For training at home, try bodyweight circuits or follow online workout videos tailored to your goals."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
       "tag": "push_up_form",
       "patterns": [
@@ -323,7 +495,7 @@
 
 
 
-    
+
     {
       "tag": "motivation",
       "patterns": [
