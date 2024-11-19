@@ -1,4 +1,5 @@
 {
+
   "intents": [
     {
       "tag": "greeting",
@@ -115,8 +116,7 @@
         "How can I improve my strength?",
         "What exercises are best for strength training?",
         "Can you guide me on building muscle strength?",
-        "What should I do to get stronger?",
-        "Suggest a routine for strength improvement."
+        "What should I do to get stronger?"
       ],
       "responses": [
         "For building strength, focus on compound movements like deadlifts, squats, and bench presses with heavy weights and lower reps.",
@@ -195,6 +195,144 @@
     },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        {
+          "tag": "build_muscle_back",
+          "patterns": [
+            "How can I build muscle on my back?",
+            "What exercises are good for back muscle growth?",
+            "Can you guide me on adding muscle to my back?",
+            "Which workouts help in back muscle development?",
+            "How do I target my back for muscle gain?"
+          ],
+          "responses": [
+            "To build back muscles, focus on exercises like pull-ups, barbell rows, lat pulldowns, and deadlifts. Ensure proper form and progressive overload for optimal growth."
+          ]
+        },
+        {
+          "tag": "build_muscle_chest",
+          "patterns": [
+            "How do I add muscle to my chest?",
+            "What exercises help in chest muscle growth?",
+            "Guide me on building chest muscles.",
+            "How can I target my chest for muscle building?",
+            "What workouts are best for chest muscle development?"
+          ],
+          "responses": [
+            "For chest muscle growth, include bench presses, push-ups, chest flyes, and incline presses in your routine. Adjust angles and weights for variety."
+          ]
+        },
+        {
+          "tag": "build_muscle_arms",
+          "patterns": [
+            "How can I grow my arm muscles?",
+            "What are the best exercises for arm muscle growth?",
+            "Can you help me build muscle in my arms?",
+            "How do I target my arms for muscle building?",
+            "Suggest some workouts for arm muscles."
+          ],
+          "responses": [
+            "Arm muscle growth involves exercises like bicep curls, tricep dips, close-grip bench presses, and hammer curls. Work on both the biceps and triceps for balanced development."
+          ]
+        },
+        {
+          "tag": "build_muscle_biceps",
+          "patterns": [
+            "What are the best exercises for bicep growth?",
+            "How do I build bigger biceps?",
+            "Can you guide me on growing my biceps?",
+            "How can I target my biceps for muscle building?",
+            "What workouts focus on the biceps?"
+          ],
+          "responses": [
+            "For bigger biceps, focus on exercises like barbell curls, hammer curls, concentration curls, and chin-ups. Keep your form strict and progressively increase the weights."
+          ]
+        },
+        {
+          "tag": "build_muscle_triceps",
+          "patterns": [
+            "How do I build muscle in my triceps?",
+            "What exercises are best for triceps growth?",
+            "Can you guide me on adding muscle to my triceps?",
+            "How can I target my triceps for growth?",
+            "What are the best workouts for triceps development?"
+          ],
+          "responses": [
+            "To develop triceps, include exercises like tricep dips, overhead tricep extensions, close-grip bench presses, and tricep pushdowns in your routine."
+          ]
+        },
+        {
+          "tag": "build_muscle_shoulders",
+          "patterns": [
+            "What is the best way to grow shoulder muscles?",
+            "How do I build muscle in my shoulders?",
+            "Can you suggest exercises for shoulder muscle growth?",
+            "How can I target my shoulders for muscle gain?",
+            "What are the best workouts for strong shoulders?"
+          ],
+          "responses": [
+            "For shoulder muscles, include overhead presses, lateral raises, front raises, and reverse flyes in your workout. Don’t forget to work all three deltoid heads for balance."
+          ]
+        },
+        {
+          "tag": "build_muscle_abs",
+          "patterns": [
+            "How do I add muscle to my abs?",
+            "What are the best exercises for ab growth?",
+            "Can you guide me on building stronger abs?",
+            "How can I target my core muscles?",
+            "What workouts are effective for abdominal muscles?"
+          ],
+          "responses": [
+            "To build abs, focus on exercises like planks, hanging leg raises, ab rollouts, and weighted crunches. Combine with a proper diet to reduce fat and make muscles visible."
+          ]
+        },
+        {
+          "tag": "build_muscle_legs",
+          "patterns": [
+            "How can I grow muscles in my legs?",
+            "What are the best exercises for leg development?",
+            "Can you guide me on building leg muscles?",
+            "How do I add muscle to my thighs and calves?",
+            "What workouts target the legs effectively?"
+          ],
+          "responses": [
+            "For leg muscles, include squats, lunges, deadlifts, leg presses, and calf raises in your routine. Use progressive overload and proper form for optimal results."
+          ]
+        },
+        {
+          "tag": "build_muscle_glutes",
+          "patterns": [
+            "How do I grow my glutes?",
+            "What are the best exercises for glute development?",
+            "Can you guide me on building muscle in my glutes?",
+            "How do I target my glutes for muscle gain?",
+            "What workouts focus on the glutes?"
+          ],
+          "responses": [
+            "To grow your glutes, include exercises like hip thrusts, Bulgarian split squats, glute bridges, and cable kickbacks in your routine."
+          ]
+        },
+
+    
 
 
 
@@ -481,6 +619,42 @@
         "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
       ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "leg_pain",
+      "patterns": [
+        "I have leg pain, what should I do?",
+        "How can I relieve pain in my legs?",
+        "My legs hurt after exercising, any suggestions?",
+        "What can help with sore legs?",
+        "I feel pain in my legs, can you guide me?"
+      ],
+      "responses": [
+        "For leg pain, consider gentle stretches, applying ice or heat, and resting. If pain persists or worsens, consult a healthcare professional.",
+        "Leg pain can be relieved with proper stretching, hydration, and light massages. If the pain is severe or constant, seeking medical advice is recommended."
+      ]
+    },
+    
+
+
 
 
 
