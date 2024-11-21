@@ -664,6 +664,405 @@
 
 
 
+    {
+      "tag": "diet_intro",
+      "patterns": [
+        "Can you give me diet tips?",
+        "Tell me about a healthy diet",
+        "I need advice on eating healthy",
+        "What is a good diet plan?",
+        "Help me with meal planning"
+      ],
+      "responses": [
+        "Sure! I can help you with that. Here are some options to guide you on your dietary journey:\n\n1. *Weight Loss Tips: I can help you with strategies for weight loss, focusing on calorie deficit, high-protein meals, and meal timing.\n\n2. **Weight Gain Tips: Looking to gain weight? I can suggest high-calorie, nutrient-dense foods and protein shakes.\n\n3. **Maintenance Diet: If you're aiming to maintain your current weight, I can provide advice on balanced eating and portion control.\n\n4. **Diet Preferences: Whether you're vegan, vegetarian, pescatarian, or non-vegetarian, I can tailor recommendations to fit your dietary choices.\n\n5. **Specialized Diets: I can guide you on specialized diets like Keto, Mediterranean, Paleo, or Gluten-Free, based on your goals.\n\n6. **Health Conditions: If you have any health conditions like diabetes, heart disease, or gut issues, I can provide dietary tips to support your health.\n\n7. **Supplements*: If you're interested in supplements, I can suggest essential ones like protein powders, vitamins, or omega-3s.\n\nPlease type the number or the name of the option you'd like to explore, and I'll provide more details!"
+      ]
+    },
+    {
+      "tag": "meal_timing",
+      "patterns": [
+        "When should I eat my meals?",
+        "Tell me about meal timings",
+        "How many meals should I eat a day?",
+        "Is eating late at night bad?",
+        "What time should I eat breakfast?"
+      ],
+      "responses": [
+        "For optimal nutrition, try:\n- Breakfast: Within an hour of waking up\n- Lunch: Mid-day, between 12-2 PM\n- Dinner: 3-4 hours before bed\n- Snacks: As needed, focusing on healthy options. Want personalized meal timing?"
+      ]
+    },
+    {
+      "tag": "breakfast_advice",
+      "patterns": [
+        "What should I eat for breakfast?",
+        "Can you give me breakfast ideas?",
+        "Healthy breakfast options?",
+        "What are good morning meals?"
+      ],
+      "responses": [
+        "A healthy breakfast could include:\n- Whole-grain toast with eggs\n- Oatmeal topped with fruits and nuts\n- Greek yogurt with berries\n\nWould you like more breakfast recipes?"
+      ]
+    },
+    {
+      "tag": "lunch_advice",
+      "patterns": [
+        "What should I eat for lunch?",
+        "Healthy lunch options?",
+        "What is a balanced lunch?",
+        "Give me ideas for a healthy lunch"
+      ],
+      "responses": [
+        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil). Need quick lunch ideas?"
+      ]
+    },
+    {
+      "tag": "dinner_advice",
+      "patterns": [
+        "What should I eat for dinner?",
+        "Healthy dinner ideas?",
+        "What is a good meal for the evening?",
+        "Suggestions for dinner?"
+      ],
+      "responses": [
+        "Dinner should be lighter but nutritious. Try:\n- Grilled fish or chicken with steamed veggies\n- Lentil soup with a side salad\n- Stir-fried tofu with mixed vegetables. Want more low-calorie options?"
+      ]
+    },
+    {
+      "tag": "snack_advice",
+      "patterns": [
+        "What are good snack options?",
+        "Healthy snacks?",
+        "What should I snack on?",
+        "Give me ideas for light snacks"
+      ],
+      "responses": [
+        "Healthy snacks include:\n- Nuts and seeds (in moderation)\n- Fresh fruits like apples or bananas\n- Greek yogurt or cottage cheese\n- Vegetable sticks with hummus. Need snack ideas for weight loss?"
+      ]
+    },
+    {
+      "tag": "hydration_tips",
+      "patterns": [
+        "How much water should I drink?",
+        "Tell me about staying hydrated",
+        "Is drinking water important?",
+        "How to stay hydrated?"
+      ],
+      "responses": [
+        "Staying hydrated is crucial! Aim for 8-10 glasses of water daily. Add lemon or mint for flavor if plain water is boring. Need tips on hydrating during workouts?"
+      ]
+    },
+    {
+      "tag": "weight_loss_diet",
+      "patterns": [
+        "What is a good diet for weight loss?",
+        "Can you help me with a weight loss diet?",
+        "Give me weight loss food tips",
+        "What should I eat to lose weight?"
+      ],
+      "responses": [
+        "For weight loss:\n- Focus on high-protein, low-carb meals\n- Include lots of vegetables and whole grains\n- Avoid processed foods and sugary drinks\n- Practice portion control. Need a detailed meal plan?"
+      ]
+    },
+    {
+      "tag": "muscle_gain_diet",
+      "patterns": [
+        "What should I eat to build muscle?",
+        "Can you suggest a muscle-building diet?",
+        "How do I gain muscle through diet?",
+        "Give me a muscle-gain meal plan"
+      ],
+      "responses": [
+        "For muscle gain:\n- Increase protein intake (chicken, eggs, lentils)\n- Eat complex carbs like oats and brown rice\n- Include healthy fats (avocados, nuts)\n- Ensure a calorie surplus. Want specific meal ideas?"
+      ]
+    },
+    {
+      "tag": "vegetarian_diet",
+      "patterns": [
+        "I am vegetarian, what should I eat?",
+        "Vegetarian diet ideas?",
+        "Can you give me a vegetarian meal plan?",
+        "What is a balanced vegetarian diet?"
+      ],
+      "responses": [
+        "For a vegetarian diet:\n- Protein: Lentils, tofu, chickpeas\n- Carbs: Quinoa, whole wheat bread\n- Fats: Avocado, olive oil, nuts\n- Vegetables: Spinach, broccoli, carrots. Would you like a weekly vegetarian plan?"
+      ]
+    },
+    {
+      "tag": "cheat_meal",
+      "patterns": [
+        "Can I have cheat meals?",
+        "Is it okay to have cheat days?",
+        "What about eating junk food occasionally?",
+        "Tell me about cheat meals"
+      ],
+      "responses": [
+        "Cheat meals are fine in moderation! Use them as a reward for sticking to your diet. Focus on portion control even when indulging. Want tips to minimize their impact?"
+      ]
+    },
+    {
+      "tag": "portion_control",
+      "patterns": [
+        "How do I control portions?",
+        "What is portion control?",
+        "Tips for portioning my meals?",
+        "How to avoid overeating?"
+      ],
+      "responses": [
+        "For portion control:\n- Use smaller plates to serve food\n- Divide your plate: Half veggies, a quarter protein, and a quarter carbs\n- Avoid second servings unless truly hungry. Want a portioning guide?"
+      ]
+    },
+    {
+      "tag": "high_protein_diet",
+      "patterns": [
+        "What are high-protein foods?",
+        "Give me a high-protein diet plan",
+        "What should I eat for a protein boost?",
+        "Can you suggest protein-rich meals?"
+      ],
+      "responses": [
+        "For a high-protein diet, focus on foods like:\n- Lean meats (chicken, turkey)\n- Fish (salmon, tuna)\n- Plant-based proteins (tofu, lentils, chickpeas)\n- Dairy (Greek yogurt, cottage cheese)\n- Nuts and seeds. Want meal ideas rich in protein?"
+      ]
+    },
+    {
+      "tag": "low_carb_diet",
+      "patterns": [
+        "What is a low-carb diet?",
+        "Can you give me a low-carb meal plan?",
+        "What are good low-carb foods?",
+        "How can I reduce my carb intake?"
+      ],
+      "responses": [
+        "A low-carb diet focuses on reducing carbohydrates like sugars and starches. Some good low-carb options are:\n- Leafy greens (spinach, kale)\n- Non-starchy vegetables (cauliflower, zucchini)\n- Protein (chicken, fish, eggs)\n- Nuts and seeds. Need low-carb meal ideas?"
+      ]
+    },
+    {
+      "tag": "intermittent_fasting",
+      "patterns": [
+        "Can you explain intermittent fasting?",
+        "What are the benefits of intermittent fasting?",
+        "How do I start intermittent fasting?",
+        "Is intermittent fasting good for weight loss?"
+      ],
+      "responses": [
+        "Intermittent fasting is an eating pattern where you cycle between periods of eating and fasting. Common schedules include 16:8 (16 hours fasting, 8 hours eating) or 5:2 (5 days of normal eating, 2 days of calorie restriction). It may help with weight loss and improve metabolic health. Want tips to get started?"
+      ]
+    },
+    {
+      "tag": "meal_prepping",
+      "patterns": [
+        "Can you give me meal prep tips?",
+        "How do I meal prep for the week?",
+        "What are some easy meal prep ideas?",
+        "Give me a guide on meal prepping"
+      ],
+      "responses": [
+        "Meal prepping is a great way to save time and stay on track with your diet. Here are some tips:\n- Choose simple recipes that can be made in bulk\n- Cook in large batches and divide meals into containers\n- Use a variety of proteins, carbs, and vegetables\n- Label meals with dates. Need help planning your weekly prep?"
+      ]
+    },
+    {
+      "tag": "eating_out_tips",
+      "patterns": [
+        "What should I eat when dining out?",
+        "How can I stick to my diet at a restaurant?",
+        "Give me tips for eating out while staying healthy",
+        "What are healthy options at restaurants?"
+      ],
+      "responses": [
+        "When eating out, try these tips:\n- Opt for grilled or steamed dishes instead of fried\n- Ask for dressings or sauces on the side\n- Choose a salad or vegetable-heavy dish\n- Avoid large portions or share with someone\n- Drink water instead of sugary drinks. Need restaurant-specific suggestions?"
+      ]
+    },
+    {
+      "tag": "vegan_diet",
+      "patterns": [
+        "What is a vegan diet?",
+        "Can you help me with vegan meal planning?",
+        "What are vegan sources of protein?",
+        "Give me vegan food ideas"
+      ],
+      "responses": [
+        "A vegan diet excludes all animal products. Key vegan food groups include:\n- Protein: Tofu, tempeh, lentils, beans\n- Grains: Quinoa, brown rice, oats\n- Vegetables: Leafy greens, sweet potatoes, bell peppers\n- Healthy fats: Avocados, nuts, olive oil. Would you like a vegan meal plan?"
+      ]
+    },
+    {
+      "tag": "fiber_rich_diet",
+      "patterns": [
+        "What are some high-fiber foods?",
+        "Give me a fiber-rich meal plan",
+        "How can I increase fiber in my diet?",
+        "Why is fiber important for my health?"
+      ],
+      "responses": [
+        "Fiber is essential for digestion and can help with weight management. Good sources of fiber include:\n- Whole grains (oats, quinoa)\n- Beans and legumes (lentils, chickpeas)\n- Fruits (apples, pears, berries)\n- Vegetables (broccoli, spinach, carrots)\n- Nuts and seeds. Want to add more fiber to your meals?"
+      ]
+    },
+    {
+      "tag": "healthy_fats",
+      "patterns": [
+        "What are healthy fats?",
+        "Give me a list of healthy fats to eat",
+        "What are good sources of fat?",
+        "How can I include more healthy fats in my diet?"
+      ],
+      "responses": [
+        "Healthy fats are important for brain function and overall health. Good sources include:\n- Avocados\n- Nuts and seeds\n- Olive oil\n- Fatty fish (salmon, mackerel)\n- Coconut oil. Need help adding healthy fats to your meals?"
+      ]
+    },
+    {
+      "tag": "gluten_free_diet",
+      "patterns": [
+        "What can I eat on a gluten-free diet?",
+        "Give me gluten-free meal ideas",
+        "How do I follow a gluten-free diet?",
+        "What are some gluten-free alternatives?"
+      ],
+      "responses": [
+        "A gluten-free diet excludes wheat, barley, and rye. Good gluten-free options include:\n- Grains like rice, quinoa, and corn\n- Fruits and vegetables\n- Lean proteins (chicken, fish, tofu)\n- Gluten-free pasta and bread. Need gluten-free recipes?"
+      ]
+    },
+    {
+      "tag": "keto_diet",
+      "patterns": [
+        "What is a keto diet?",
+        "Can you give me a keto meal plan?",
+        "What should I eat on a keto diet?",
+        "How do I follow a ketogenic diet?"
+      ],
+      "responses": [
+        "The keto diet is high in fats and very low in carbohydrates. Some foods to include are:\n- Avocados, nuts, seeds\n- Fatty fish (salmon, mackerel)\n- Cheese and butter\n- Leafy greens and low-carb vegetables\nAvoid: Bread, pasta, and sugary foods. Need keto meal ideas?"
+      ]
+    },
+    {
+      "tag": "mediterranean_diet",
+      "patterns": [
+        "What is the Mediterranean diet?",
+        "Can you help me with a Mediterranean meal plan?",
+        "What should I eat on a Mediterranean diet?",
+        "What foods are included in the Mediterranean diet?"
+      ],
+      "responses": [
+        "The Mediterranean diet is rich in whole grains, lean proteins, and healthy fats, particularly olive oil. Foods include:\n- Fish and seafood (rich in omega-3)\n- Whole grains (quinoa, brown rice)\n- Vegetables and fruits\n- Olive oil and nuts. Would you like Mediterranean meal suggestions?"
+      ]
+    },
+    {
+      "tag": "paleo_diet",
+      "patterns": [
+        "What is the paleo diet?",
+        "Can you give me a paleo meal plan?",
+        "What foods are allowed on a paleo diet?",
+        "How do I follow the paleo diet?"
+      ],
+      "responses": [
+        "The paleo diet focuses on eating whole, unprocessed foods like:\n- Meat (grass-fed, wild-caught)\n- Fish and seafood\n- Fruits and vegetables\n- Nuts and seeds\n- Avoid: Dairy, grains, and processed foods. Need a paleo recipe?"
+      ]
+    },
+    {
+      "tag": "low_fodmap_diet",
+      "patterns": [
+        "What is a low-FODMAP diet?",
+        "Can you suggest low-FODMAP foods?",
+        "What can I eat on a low-FODMAP diet?",
+        "Give me low-FODMAP meal ideas"
+      ],
+      "responses": [
+        "A low-FODMAP diet is designed to reduce foods that trigger digestive issues. Some options include:\n- Low-FODMAP fruits (bananas, blueberries)\n- Lean meats and fish\n- Gluten-free grains (rice, oats)\n- Lactose-free dairy products. Need low-FODMAP meal suggestions?"
+      ]
+    },
+    {
+      "tag": "diabetes_diet",
+      "patterns": [
+        "What should I eat with diabetes?",
+        "Can you suggest a diabetes-friendly diet?",
+        "What foods are best for diabetes?",
+        "How can I control blood sugar through diet?"
+      ],
+      "responses": [
+        "For diabetes management, focus on:\n- High-fiber foods (vegetables, legumes)\n- Lean proteins (chicken, fish)\n- Whole grains (brown rice, quinoa)\n- Low-glycemic fruits (berries, apples)\n- Avoid sugary snacks and processed foods. Want a meal plan for diabetes?"
+      ]
+    },
+    {
+      "tag": "heart_health_diet",
+      "patterns": [
+        "What is a heart-healthy diet?",
+        "Can you give me a diet plan for heart health?",
+        "What foods help with heart health?",
+        "What should I eat to lower cholesterol?"
+      ],
+      "responses": [
+        "A heart-healthy diet includes:\n- Omega-3-rich foods (salmon, flaxseeds)\n- Whole grains (oats, brown rice)\n- Healthy fats (olive oil, avocado)\n- Fruits and vegetables (especially leafy greens)\n- Low-sodium options. Need heart-healthy meal suggestions?"
+      ]
+    },
+    {
+      "tag": "gut_health_diet",
+      "patterns": [
+        "What foods are good for gut health?",
+        "Can you help me with a gut-friendly diet?",
+        "What should I eat for digestive health?",
+        "What foods improve gut health?"
+      ],
+      "responses": [
+        "For gut health, focus on:\n- Probiotic-rich foods (yogurt, kimchi, kefir)\n- High-fiber foods (beans, vegetables, fruits)\n- Bone broth\n- Hydration (water, herbal teas). Want a gut-health meal plan?"
+      ]
+    },
+    {
+      "tag": "bone_health_diet",
+      "patterns": [
+        "What foods are good for bone health?",
+        "Can you give me a diet for bone health?",
+        "What should I eat for strong bones?",
+        "What foods are high in calcium and vitamin D?"
+      ],
+      "responses": [
+        "For bone health, include:\n- Calcium-rich foods (dairy, leafy greens, almonds)\n- Vitamin D-rich foods (salmon, egg yolks, fortified milk)\n- Magnesium-rich foods (spinach, pumpkin seeds). Want bone-healthy meal ideas?"
+      ]
+    },
+    {
+      "tag": "supplementation",
+      "patterns": [
+        "What supplements should I take?",
+        "Can you suggest some essential supplements?",
+        "What are the best vitamins and minerals to take?",
+        "Should I take protein powder or multivitamins?"
+      ],
+      "responses": [
+        "Essential supplements for general health include:\n- Multivitamins (to cover nutrient gaps)\n- Omega-3 (for heart health)\n- Protein powders (for muscle recovery)\n- Vitamin D (especially in winter). Need recommendations for specific supplements?"
+      ]
+    },
+    {
+      "tag": "specialized_supplements",
+      "patterns": [
+        "What specialized supplements should I take?",
+        "Can you suggest supplements like collagen or creatine?",
+        "Should I take collagen for joints?",
+        "What are the benefits of creatine?"
+      ],
+      "responses": [
+        "Specialized supplements include:\n- Collagen (for skin, joints, and bones)\n- Creatine (for muscle strength and performance)\n- Probiotics (for gut health)\n- Magnesium (for sleep and muscle function). Want a guide on specialized supplementation?"
+      ]
+    },
+    {
+      "tag": "diet_myths_and_facts",
+      "patterns": [
+        "Are carbs bad for you?",
+        "Do I need to avoid all fat to lose weight?",
+        "Is breakfast really the most important meal?",
+        "What are common diet myths?"
+      ],
+      "responses": [
+        "Let’s debunk some common diet myths:\n- Carbs are not inherently bad; focus on complex carbs\n- Healthy fats are essential for body function\n- Breakfast is important, but it's not mandatory if intermittent fasting works for you\n- Eating late at night doesn’t automatically cause weight gain. Want to know more?"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
