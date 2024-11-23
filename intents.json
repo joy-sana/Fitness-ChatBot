@@ -1,5 +1,4 @@
 {
-
   "intents": [
     {
       "tag": "greeting",
@@ -18,19 +17,6 @@
         "Hello! I'm here to help you stay healthy and motivated."
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "tag": "weekly_routine_home",
       "patterns": [
@@ -96,20 +82,6 @@
         "Bodybuilding weekly routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Shoulders and Abs\nDay 5: Legs and Glutes\nDay 6: Full-body Workout\nDay 7: Rest or Active Recovery."
       ]
     },
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
     {
       "tag": "strength",
       "patterns": [
@@ -193,164 +165,123 @@
         "For training at home, try bodyweight circuits or follow online workout videos tailored to your goals."
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        {
-          "tag": "build_muscle_back",
-          "patterns": [
-            "How can I build muscle on my back?",
-            "What exercises are good for back muscle growth?",
-            "Can you guide me on adding muscle to my back?",
-            "Which workouts help in back muscle development?",
-            "How do I target my back for muscle gain?"
-          ],
-          "responses": [
-            "To build back muscles, focus on exercises like pull-ups, barbell rows, lat pulldowns, and deadlifts. Ensure proper form and progressive overload for optimal growth."
-          ]
-        },
-        {
-          "tag": "build_muscle_chest",
-          "patterns": [
-            "How do I add muscle to my chest?",
-            "What exercises help in chest muscle growth?",
-            "Guide me on building chest muscles.",
-            "How can I target my chest for muscle building?",
-            "What workouts are best for chest muscle development?"
-          ],
-          "responses": [
-            "For chest muscle growth, include bench presses, push-ups, chest flyes, and incline presses in your routine. Adjust angles and weights for variety."
-          ]
-        },
-        {
-          "tag": "build_muscle_arms",
-          "patterns": [
-            "How can I grow my arm muscles?",
-            "What are the best exercises for arm muscle growth?",
-            "Can you help me build muscle in my arms?",
-            "How do I target my arms for muscle building?",
-            "Suggest some workouts for arm muscles."
-          ],
-          "responses": [
-            "Arm muscle growth involves exercises like bicep curls, tricep dips, close-grip bench presses, and hammer curls. Work on both the biceps and triceps for balanced development."
-          ]
-        },
-        {
-          "tag": "build_muscle_biceps",
-          "patterns": [
-            "What are the best exercises for bicep growth?",
-            "How do I build bigger biceps?",
-            "Can you guide me on growing my biceps?",
-            "How can I target my biceps for muscle building?",
-            "What workouts focus on the biceps?"
-          ],
-          "responses": [
-            "For bigger biceps, focus on exercises like barbell curls, hammer curls, concentration curls, and chin-ups. Keep your form strict and progressively increase the weights."
-          ]
-        },
-        {
-          "tag": "build_muscle_triceps",
-          "patterns": [
-            "How do I build muscle in my triceps?",
-            "What exercises are best for triceps growth?",
-            "Can you guide me on adding muscle to my triceps?",
-            "How can I target my triceps for growth?",
-            "What are the best workouts for triceps development?"
-          ],
-          "responses": [
-            "To develop triceps, include exercises like tricep dips, overhead tricep extensions, close-grip bench presses, and tricep pushdowns in your routine."
-          ]
-        },
-        {
-          "tag": "build_muscle_shoulders",
-          "patterns": [
-            "What is the best way to grow shoulder muscles?",
-            "How do I build muscle in my shoulders?",
-            "Can you suggest exercises for shoulder muscle growth?",
-            "How can I target my shoulders for muscle gain?",
-            "What are the best workouts for strong shoulders?"
-          ],
-          "responses": [
-            "For shoulder muscles, include overhead presses, lateral raises, front raises, and reverse flyes in your workout. Don’t forget to work all three deltoid heads for balance."
-          ]
-        },
-        {
-          "tag": "build_muscle_abs",
-          "patterns": [
-            "How do I add muscle to my abs?",
-            "What are the best exercises for ab growth?",
-            "Can you guide me on building stronger abs?",
-            "How can I target my core muscles?",
-            "What workouts are effective for abdominal muscles?"
-          ],
-          "responses": [
-            "To build abs, focus on exercises like planks, hanging leg raises, ab rollouts, and weighted crunches. Combine with a proper diet to reduce fat and make muscles visible."
-          ]
-        },
-        {
-          "tag": "build_muscle_legs",
-          "patterns": [
-            "How can I grow muscles in my legs?",
-            "What are the best exercises for leg development?",
-            "Can you guide me on building leg muscles?",
-            "How do I add muscle to my thighs and calves?",
-            "What workouts target the legs effectively?"
-          ],
-          "responses": [
-            "For leg muscles, include squats, lunges, deadlifts, leg presses, and calf raises in your routine. Use progressive overload and proper form for optimal results."
-          ]
-        },
-        {
-          "tag": "build_muscle_glutes",
-          "patterns": [
-            "How do I grow my glutes?",
-            "What are the best exercises for glute development?",
-            "Can you guide me on building muscle in my glutes?",
-            "How do I target my glutes for muscle gain?",
-            "What workouts focus on the glutes?"
-          ],
-          "responses": [
-            "To grow your glutes, include exercises like hip thrusts, Bulgarian split squats, glute bridges, and cable kickbacks in your routine."
-          ]
-        },
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    {
+      "tag": "build_muscle_back",
+      "patterns": [
+        "How can I build muscle on my back?",
+        "What exercises are good for back muscle growth?",
+        "Can you guide me on adding muscle to my back?",
+        "Which workouts help in back muscle development?",
+        "How do I target my back for muscle gain?"
+      ],
+      "responses": [
+        "To build back muscles, focus on exercises like pull-ups, barbell rows, lat pulldowns, and deadlifts. Ensure proper form and progressive overload for optimal growth."
+      ]
+    },
+    {
+      "tag": "build_muscle_chest",
+      "patterns": [
+        "How do I add muscle to my chest?",
+        "What exercises help in chest muscle growth?",
+        "Guide me on building chest muscles.",
+        "How can I target my chest for muscle building?",
+        "What workouts are best for chest muscle development?"
+      ],
+      "responses": [
+        "For chest muscle growth, include bench presses, push-ups, chest flyes, and incline presses in your routine. Adjust angles and weights for variety."
+      ]
+    },
+    {
+      "tag": "build_muscle_arms",
+      "patterns": [
+        "How can I grow my arm muscles?",
+        "What are the best exercises for arm muscle growth?",
+        "Can you help me build muscle in my arms?",
+        "How do I target my arms for muscle building?",
+        "Suggest some workouts for arm muscles."
+      ],
+      "responses": [
+        "Arm muscle growth involves exercises like bicep curls, tricep dips, close-grip bench presses, and hammer curls. Work on both the biceps and triceps for balanced development."
+      ]
+    },
+    {
+      "tag": "build_muscle_biceps",
+      "patterns": [
+        "What are the best exercises for bicep growth?",
+        "How do I build bigger biceps?",
+        "Can you guide me on growing my biceps?",
+        "How can I target my biceps for muscle building?",
+        "What workouts focus on the biceps?"
+      ],
+      "responses": [
+        "For bigger biceps, focus on exercises like barbell curls, hammer curls, concentration curls, and chin-ups. Keep your form strict and progressively increase the weights."
+      ]
+    },
+    {
+      "tag": "build_muscle_triceps",
+      "patterns": [
+        "How do I build muscle in my triceps?",
+        "What exercises are best for triceps growth?",
+        "Can you guide me on adding muscle to my triceps?",
+        "How can I target my triceps for growth?",
+        "What are the best workouts for triceps development?"
+      ],
+      "responses": [
+        "To develop triceps, include exercises like tricep dips, overhead tricep extensions, close-grip bench presses, and tricep pushdowns in your routine."
+      ]
+    },
+    {
+      "tag": "build_muscle_shoulders",
+      "patterns": [
+        "What is the best way to grow shoulder muscles?",
+        "How do I build muscle in my shoulders?",
+        "Can you suggest exercises for shoulder muscle growth?",
+        "How can I target my shoulders for muscle gain?",
+        "What are the best workouts for strong shoulders?"
+      ],
+      "responses": [
+        "For shoulder muscles, include overhead presses, lateral raises, front raises, and reverse flyes in your workout. Don’t forget to work all three deltoid heads for balance."
+      ]
+    },
+    {
+      "tag": "build_muscle_abs",
+      "patterns": [
+        "How do I add muscle to my abs?",
+        "What are the best exercises for ab growth?",
+        "Can you guide me on building stronger abs?",
+        "How can I target my core muscles?",
+        "What workouts are effective for abdominal muscles?"
+      ],
+      "responses": [
+        "To build abs, focus on exercises like planks, hanging leg raises, ab rollouts, and weighted crunches. Combine with a proper diet to reduce fat and make muscles visible."
+      ]
+    },
+    {
+      "tag": "build_muscle_legs",
+      "patterns": [
+        "How can I grow muscles in my legs?",
+        "What are the best exercises for leg development?",
+        "Can you guide me on building leg muscles?",
+        "How do I add muscle to my thighs and calves?",
+        "What workouts target the legs effectively?"
+      ],
+      "responses": [
+        "For leg muscles, include squats, lunges, deadlifts, leg presses, and calf raises in your routine. Use progressive overload and proper form for optimal results."
+      ]
+    },
+    {
+      "tag": "build_muscle_glutes",
+      "patterns": [
+        "How do I grow my glutes?",
+        "What are the best exercises for glute development?",
+        "Can you guide me on building muscle in my glutes?",
+        "How do I target my glutes for muscle gain?",
+        "What workouts focus on the glutes?"
+      ],
+      "responses": [
+        "To grow your glutes, include exercises like hip thrusts, Bulgarian split squats, glute bridges, and cable kickbacks in your routine."
+      ]
+    },
     {
       "tag": "push_up_form",
       "patterns": [
@@ -619,25 +550,6 @@
         "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "tag": "leg_pain",
       "patterns": [
@@ -652,18 +564,6 @@
         "Leg pain can be relieved with proper stretching, hydration, and light massages. If the pain is severe or constant, seeking medical advice is recommended."
       ]
     },
-    
-
-
-
-
-
-
-
-
-
-
-
     {
       "tag": "diet_intro",
       "patterns": [
@@ -1050,25 +950,6 @@
         "Let’s debunk some common diet myths:\n- Carbs are not inherently bad; focus on complex carbs\n- Healthy fats are essential for body function\n- Breakfast is important, but it's not mandatory if intermittent fasting works for you\n- Eating late at night doesn’t automatically cause weight gain. Want to know more?"
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "tag": "motivation",
       "patterns": [
@@ -1171,6 +1052,597 @@
         "Why did the treadmill bring a date to the gym? It wanted to go the extra mile!",
         "What’s a fitness coach’s favorite game? Follow the leaderboards!"
       ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "kegel_exercise",
+      "patterns": [
+        "What are Kegel exercises?",
+        "Tell me about Kegel exercises",
+
+        "How do I do Kegel exercises?",
+        "What are the benefits of Kegel exercises?",
+       
+        "What exercises are good for urine-related problems?",
+        "Are there exercises for old people to control urine?"
+        
+       
+      ],
+      "responses": [
+        "Kegel exercises are designed to strengthen your pelvic floor muscles, helping with issues like urinary leakage, inconsistency, or pelvic discomfort."
+       
+      ]
+    },
+    {
+      "tag":"kegel_exercise1",
+      "patterns":[ "Why should I practice Kegel exercises?",
+      "I have urine leakage issues, can Kegel exercises help?",
+      "Can Kegel exercises help with urinary inconsistency?"],
+      "responses":[ "For people experiencing urine-related problems or pelvic floor weakness, Kegel exercises are a great solution."]
+
+
+    },
+    {
+      "tag":"kegel_exercise2",
+      "patterns":["What can women do after pregnancy for pelvic health?",
+      "Are Kegel exercises good after childbirth?"],
+      "responses":[
+        "After pregnancy or childbirth, women can benefit significantly from Kegel exercises to restore pelvic strength."]
+
+
+    },
+    {
+      "tag":"kegel_exercise3",
+      "patterns":[
+        "Older individuals dealing with urinary inconsistency or leakage can improve bladder control with regular Kegel exercises."
+        ],
+      "responses":["Would you like a step-by-step guide to start Kegel exercises?"]
+
+
+    },
+    {
+      "tag":"kegel_exercise4",
+      "patterns":["step step procedure for kegel exercise"],
+      "responses":["Here's how to start Kegel exercises as a beginner:\n\n1. Identify your pelvic floor muscles: You can find them by stopping the flow of urine midstream or tightening the muscles you use to hold in gas.\n\n2. Get into a comfortable position: Sit or lie down in a relaxed posture.\n\n3. Tighten your pelvic floor muscles: Hold the contraction for about 3-5 seconds, then relax for the same amount of time.\n\n4. Repeat the exercise: Aim for 10-15 repetitions, 3 times a day.\n\n5. Avoid overusing surrounding muscles: Keep your abdomen, thighs, and buttocks relaxed during the exercise.\n\n6. Breathe normally: Don’t hold your breath while contracting the muscles.\n\nStart slowly and increase the duration and intensity as your muscles get stronger. Consistency is key for results!"
+    ]
+
+
+    },
+    {
+      "tag": "kegel_exercise_Description",
+      "patterns": [
+           "benefits of kegel exercise"
+      ],
+      "responses": [
+     "1. Improves Bladder Control: Helps prevent or control urinary incontinence by strengthening the pelvic floor muscles.2. Reduces Risk of Pelvic Organ Prolapse: Supports organs like the bladder, uterus, and rectum, preventing prolapse.3. Enhances Sexual Health: Improves sexual function by increasing blood flow and muscle tone in the pelvic area.\n\n 4. Supports Postpartum Recovery: Aids in regaining muscle strength after childbirth.\n\n5. Helps with Constipation: Improves bowel control by strengthening anal sphincter muscles.\n\n 6. Improves Prostate Health in Men: Assists in managing urinary issues caused by prostate problems.\n\n 7. Reduces Post-Surgery Complications: Helps in recovery and maintaining control after pelvic surgeries.\n\n8. Increases Core Stability: Strengthens the connection between pelvic floor and core muscles, improving posture and balance.\n\n9. Prevents Accidental Leakage: Useful during activities like sneezing, coughing, or heavy lifting.\n\n10. Can Be Done Anywhere: Discreet and easy to incorporate into daily routines."
+      ]
+    },
+    {
+      "tag": "pranayama",
+      "patterns": [
+        "What is pranayama?",
+        "Tell me about pranayama",
+        "What are the types of pranayama?",
+        "How can pranayama benefit me?",
+        "What are the different pranayama techniques?",
+        "Which pranayama should I practice for relaxation?"
+      ],
+      "responses": [
+        "Pranayama is a yogic practice of controlling the breath, often used to improve mental clarity, reduce stress, and enhance overall well-being.\n\nThere are various types of pranayama, including Anulom Vilom, Kapalbhati, Bhastrika, and more, each offering unique health benefits.\n\n Pranayama techniques can help in reducing anxiety, improving focus, enhancing lung capacity, and calming the mind.\n\n Would you like to learn about specific pranayama techniques?"
+      ]
+    },
+ 
+    {
+      "tag": "anulom_vilom",
+      "patterns": [
+        "What is Anulom Vilom?",
+        "How to do Anulom Vilom?",
+        "Tell me about Nadi Shodhana",
+        "How can I practice Anulom Vilom?",
+        "What are the benefits of Anulom Vilom?",
+        "Can Anulom Vilom help with stress?"
+      ],
+      "responses": [
+        "Anulom Vilom, also known as Nadi Shodhana, is a breathing technique that involves alternating nostrils for inhalation and exhalation. \n\nThis practice is beneficial for reducing stress, improving concentration, and balancing the left and right sides of the brain.,\n\nAnulom Vilom can help you calm your mind, improve respiratory function, and enhance your overall sense of well-being. \n\nWould you like to learn how to perform Anulom Vilom?"
+      ]
+    },
+    {
+      "tag": "kapalbhati",
+      "patterns": [
+        "What is Kapalbhati?",
+        "How to do Kapalbhati?",
+        "Tell me about Kapalbhati pranayama",
+        "What are the benefits of Kapalbhati?",
+        "How can Kapalbhati improve digestion?"
+      ],
+      "responses": [
+        "Kapalbhati is a powerful pranayama technique that involves forceful exhalation and passive inhalation.\n\nIt helps in detoxifying the body, improving digestion, and energizing the mind. \n\nKapalbhati can also reduce stress, improve blood circulation, and aid in weight loss.\n\nWould you like to know how to practice Kapalbhati?"
+      ]
+    },
+    {
+      "tag": "bhastrika",
+      "patterns": [
+        "What is Bhastrika?",
+        "How to do Bhastrika pranayama?",
+        "Explain Bhastrika breathing",
+        "What are the benefits of Bhastrika?",
+        "How can Bhastrika improve energy levels?"
+      ],
+      "responses": [
+        "Bhastrika, also known as bellows breath, is a pranayama technique that involves active and forceful inhalation and exhalation.\n\nIt increases energy, boosts oxygen supply to the body, and can improve focus and mental clarity.\n\nBhastrika helps improve lung capacity, clear respiratory channels, and energize the body.\n\nWould you like a step-by-step guide to practice Bhastrika?"
+      ]
+    },
+    {
+      "tag": "ujjayi",
+      "patterns": [
+        "What is Ujjayi pranayama?",
+        "How do I practice Ujjayi?",
+        "Explain Ujjayi breathing technique",
+        "What are the benefits of Ujjayi pranayama?"
+      ],
+      "responses": [
+        "1.Ujjayi pranayama, also known as victorious breath, involves breathing in and out through the nose with a slight constriction in the throat. 2.This practice helps calm the mind, enhance concentration, and regulate energy flow in the body.3.Ujjayi pranayama can improve blood circulation, reduce stress, and enhance the capacity for deep meditation.4.Would you like to know more about Ujjayi pranayama?"
+      ]
+    },
+    {
+      "tag": "sheetali",
+      "patterns": [
+        "What is Sheetali pranayama?",
+        "How to do Sheetali breathing?",
+        "Tell me about Sheetali pranayama",
+        "What are the benefits of Sheetali pranayama?"
+      ],
+      "responses": [
+        "Sheetali pranayama is a cooling breathing technique that involves inhaling through the mouth and exhaling through the nose.\n\nThis technique helps cool the body, calm the mind, and relieve stress or anxiety.\n\nSheetali pranayama is particularly useful in hot weather or for individuals experiencing anger or frustration.\n\nWould you like a guide on how to perform Sheetali pranayama?"
+      ]
+    },
+    {
+      "tag": "sheetkari",
+      "patterns": [
+        "What is Sheetkari pranayama?",
+        "How to practice Sheetkari?",
+        "What are the benefits of Sheetkari pranayama?"
+      ],
+      "responses": [
+        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil). Need quick lunch ideas?\n\nIt is a cooling technique that calms the nervous system, reduces stress, and enhances relaxation.\n\n Sheetkari pranayama is beneficial for lowering body temperature and promoting mental clarity.Would you like to know how to practice Sheetkari pranayama?"
+      ]
+    },
+    {
+      "tag": "bhramari",
+      "patterns": [
+        "What is Bhramari pranayama?",
+        "How do I do Bhramari?",
+        "Tell me about Bhramari breathing exercise",
+        "How can I practice Bhramari?",
+        "What are the benefits of Bhramari pranayama?"
+      ],
+      "responses": [
+        "Bhramari pranayama, or humming bee breath, involves making a humming sound during exhalation.This technique is effective for calming the mind, relieving stress, and improving focus.Bhramari helps alleviate tension in the head, improves concentration, and enhances mental clarity.Would you like to learn how to perform Bhramari pranayama?"
+      ]
+    },
+    {
+      "tag": "surya_bhedana",
+      "patterns": [
+        "What is Surya Bhedana pranayama?",
+        "How do I practice Surya Bhedana?",
+        "What are the benefits of Surya Bhedana?",
+        "How does Surya Bhedana pranayama affect energy levels?"
+      ],
+      "responses": [
+        "Surya Bhedana pranayama involves inhaling through the right nostril and exhaling through the left nostril.This technique stimulates the body’s internal energy and increases focus and concentration.Surya Bhedana is often practiced to improve vitality and boost the body’s physical warmth and energy.Would you like to try Surya Bhedana pranayama?"
+      ]
+    },
+    {
+      "tag": "chandra_bhedana",
+      "patterns": [
+        "What is Chandra Bhedana pranayama?",
+        "How do I do Chandra Bhedana?",
+        "Tell me about Chandra Bhedana pranayama",
+        "What are the benefits of Chandra Bhedana?"
+      ],
+      "responses": [
+        "Chandra Bhedana pranayama involves inhaling through the left nostril and exhaling through the right nostril.This technique helps calm the body, cool the mind, and promote relaxation.Chandra Bhedana is especially beneficial when dealing with stress, anxiety, or sleeplessness.Would you like a guide on how to perform Chandra Bhedana pranayama?"
+      ]
+    },
+    {
+      "tag": "udgeet_pranayama",
+      "patterns": [
+        "What is Omkar Pranayama?",
+        "Tell me about Udgith Pranayama",
+        "How do I do Omkar Pranayama?",
+        "What are the benefits of Omkar Pranayama?",
+        "How do I practice Udgith Pranayama?",
+        "Can Udgith Pranayama help with stress?"
+      ],
+      "responses": [
+        "Omkar Pranayama, also known as Udgith Pranayama, involves chanting the sound 'Om' while practicing controlled breathing. It helps calm the mind and brings a sense of peace.To practice Omkar Pranayama, sit in a comfortable position, close your eyes, take a deep breath, and chant the sound 'Om' for a prolonged period as you exhale.This pranayama helps reduce stress, balance the energy in the body, and improve focus and concentration.Omkar Pranayama is known for its ability to harmonize body and mind, making it an excellent practice for meditation and mental relaxation."
+      ]
+    },
+    {
+      "tag": "yoga_poses",
+      "patterns": [
+        "What are yoga poses?",
+        "Tell me about basic yoga poses",
+        "What are the different types of yoga poses?",
+        "How do I start practicing yoga?",
+        "What are the benefits of yoga poses?",
+        "Which yoga poses are good for beginners?"
+      ],
+      "responses": [
+        "Yoga poses, or asanas, are physical postures practiced to enhance flexibility, strength, balance, and overall health.There are numerous yoga poses, each serving a different purpose such as improving flexibility, calming the mind, or building strength.Yoga can benefit you physically and mentally. Would you like to learn about specific poses?"
+      ]
+    },
+    {
+      "tag": "tadasana",
+      "patterns": [
+        "What is Tadasana?",
+        "How to do Tadasana?",
+        "Tell me about Tadasana pose",
+        "What are the benefits of Tadasana?",
+        "Can Tadasana help improve posture?"
+      ],
+      "responses": [
+        "Tadasana, or Mountain Pose, is a foundational standing posture that promotes good posture, stability, and body awareness.To perform Tadasana, stand with your feet together, arms by your sides, and engage your legs while lengthening your spine.Tadasana helps improve posture, strengthen the legs, and build a sense of grounding and balance.Would you like to know how to practice Tadasana?"
+      ]
+    },
+    {
+      "tag": "downward_dog",
+      "patterns": [
+        "What is Downward Dog?",
+        "How do I do Downward Dog?",
+        "Tell me about the Downward Dog pose",
+        "What are the benefits of Downward Dog?",
+        "Can Downward Dog help stretch my back?"
+      ],
+      "responses": [
+        "Downward Dog (Adho Mukha Svanasana) is a popular yoga pose that stretches the entire body, particularly the hamstrings, back, and shoulderTo perform Downward Dog, start on all fours and lift your hips towards the sky, forming an inverted V shape with your bodThis pose strengthens the arms, shoulders, and core, and also stretches the back, hamstrings, and calveWould you like to learn more about how to practice Downward Dog?"
+      ]
+    },
+    {
+      "tag": "childs_pose",
+      "patterns": [
+        "What is Child's Pose?",
+        "How do I do Child's Pose?",
+        "Tell me about Child's Pose",
+        "What are the benefits of Child's Pose?",
+        "Is Child's Pose good for relaxation?"
+      ],
+      "responses": [
+        "Child's Pose (Balasana) is a resting pose that gently stretches the back, hips, and thighs while promoting relaxation and mindfulnesTo practice Child's Pose, kneel on the mat, sit back on your heels, and gently fold forward with your arms extended on the maChild's Pose is great for relaxation, relieving tension in the back, and calming the minWould you like a step-by-step guide on how to perform Child's Pose?"
+      ]
+    },
+    {
+      "tag": "sirsasana",
+      "patterns": [
+        "What is Sirsasana?",
+        "How do I do a headstand?",
+        "What are the benefits of Sirsasana?",
+        "Can I practice Sirsasana (Headstand)?",
+        "What is the correct way to perform Sirsasana?"
+      ],
+      "responses": [
+        "Sirsasana, also known as Headstand, is an advanced yoga pose that involves balancing on your head with the support of your forearms. It is known as the 'King of Asanas' due to its wide range of benefitBenefits of Sirsasana include improved circulation, enhanced brain function, improved concentration, and a strengthened core. It also helps in relieving stress and anxiety.To perform Sirsasana, start in a kneeling position, interlock your fingers, and place your forearms on the floor. Place the crown of your head on the ground between your hands, then slowly raise your legs upwards while keeping your core engaged and maintaining balance,Ensure you practice under guidance, especially if you are a beginner. If you have neck, spine, or heart issues, avoid this pose.Always warm up before attempting this pose and avoid doing it for prolonged periods. Proper alignment is crucial to avoid injury, and it’s recommended to use a wall for support during practice."
+      ]
+    },
+    {
+      "tag": "halasana",
+      "patterns": [
+        "What is Halasana?",
+        "How do I do Halasana (Plow Pose)?",
+        "What are the benefits of Halasana?",
+        "Can I practice Halasana?",
+        "What is the correct way to perform Halasana?"
+      ],
+      "responses": [
+        "Halasana, or Plow Pose, is an inversion yoga pose where you lie on your back and bring your legs over your head to touch the floor behind you.The benefits of Halasana include improved flexibility in the spine, stimulation of the digestive organs, improved circulation, and stress relief.To practice Halasana, lie flat on your back, engage your core, and lift your legs over your head, bringing them to the ground behind you. Keep your arms flat on the floor with your palms facing down.Ensure you don’t strain your neck while performing Halasana. If you have neck or back problems, this pose should be avoided.This pose stretches the shoulders, spine, and hamstrings. It also helps relieve tension and stress, improving overall relaxation and calming the mind."
+      ]
+    },
+    {
+      "tag": "cobra_pose",
+      "patterns": [
+        "What is Cobra Pose?",
+        "How do I do Cobra Pose?",
+        "Tell me about Cobra Pose",
+        "What are the benefits of Cobra Pose?",
+        "Can Cobra Pose help with back pain?"
+      ],
+      "responses": [
+        "Cobra Pose (Bhujangasana) is a backbend pose that strengthens the spine, opens the chest, and stretches the abdominal muscles.To perform Cobra Pose, lie on your stomach, place your hands under your shoulders, and lift your chest off the ground while keeping your elbows slightly bent.Cobra Pose helps alleviate back pain, improve flexibility in the spine, and stimulate the abdominal organs.Would you like to learn more about how to do Cobra Pose?"
+      ]
+    },
+    {
+      "tag": "warrior_pose_1",
+      "patterns": [
+        "What is Warrior Pose 1?",
+        "How do I do Warrior Pose 1?",
+        "Tell me about Warrior Pose 1",
+        "What are the benefits of Warrior Pose 1?",
+        "How does Warrior Pose 1 improve strength?"
+      ],
+      "responses": [
+        "Warrior Pose 1 (Virabhadrasana 1) is a standing pose that builds strength in the legs, core, and arms while improving balance and concentration.To perform Warrior Pose 1, step one foot back, bend your front knee, and raise your arms overhead, with your gaze forward.This pose helps strengthen the legs, hips, and arms while increasing stamina and focus.Would you like a detailed guide on how to practice Warrior Pose 1?"
+      ]
+    },
+    {
+      "tag": "triangle_pose",
+      "patterns": [
+        "What is Triangle Pose?",
+        "How do I do Triangle Pose?",
+        "Tell me about Triangle Pose",
+        "What are the benefits of Triangle Pose?",
+        "Can Triangle Pose improve flexibility?"
+      ],
+      "responses": [
+        "Triangle Pose (Trikonasana) is a standing pose that stretches the legs, hips, and spine while improving flexibility and balance.To perform Triangle Pose, stand with your legs wide apart, extend your arms parallel to the ground, and reach your front hand toward your foot while keeping your back straight.Triangle Pose improves flexibility in the hips, legs, and spine and helps strengthen the core and legs.Would you like to know how to do Triangle Pose step-by-step?"
+      ]
+    },
+    {
+      "tag": "seated_forward_fold",
+      "patterns": [
+        "What is Seated Forward Fold?",
+        "How do I do Seated Forward Fold?",
+        "Tell me about Seated Forward Fold",
+        "What are the benefits of Seated Forward Fold?",
+        "Can Seated Forward Fold help with flexibility?"
+      ],
+      "responses": [
+        "Seated Forward Fold (Paschimottanasana) is a seated pose that stretches the hamstrings, back, and spine.To perform Seated Forward Fold, sit with your legs extended straight ahead, inhale to lengthen your spine, and then fold forward, reaching for your feet.This pose is great for improving flexibility in the hamstrings and spine, as well as calming the nervous system.Would you like to learn how to practice Seated Forward Fold?"
+      ]
+    },
+    {
+      "tag": "bridge_pose",
+      "patterns": [
+        "What is Bridge Pose?",
+        "How do I do Bridge Pose?",
+        "Tell me about Bridge Pose",
+        "What are the benefits of Bridge Pose?",
+        "Can Bridge Pose help strengthen the back?"
+      ],
+      "responses": [
+        "Bridge Pose (Setu Bandhasana) is a backbend that helps strengthen the glutes, lower back, and thighs while opening the chest and hips.To perform Bridge Pose, lie on your back, bend your knees, and lift your hips towards the ceiling, pressing your feet and arms into the ground.Bridge Pose improves spinal flexibility, strengthens the back, and helps relieve tension in the chest and shoulders.Would you like to know how to perform Bridge Pose."
+      ]
+    },
+    {
+      "tag": "cat_cow_pose",
+      "patterns": [
+        "What is Cat-Cow Pose?",
+        "How do I do Cat-Cow Pose?",
+        "Tell me about Cat-Cow Pose",
+        "What are the benefits of Cat-Cow Pose?"
+      ],
+      "responses": [
+        "Cat-Cow Pose (Marjaryasana-Bitilasana) is a gentle flow between two poses that helps warm up the spine and relieve tension in the back and neck.To practice Cat-Cow Pose, start on all fours, alternate between arching your back towards the ceiling (Cat) and dipping your spine towards the floor (Cow).Cat-Cow Pose increases spinal flexibility, massages the internal organs, and improves posture.Would you like a step-by-step guide for Cat-Cow Pose?"
+      ]
+    },
+    {
+      "tag": "surya_namaskar",
+      "patterns": [
+        "What is Surya Namaskar?",
+        "How do I do Surya Namaskar?",
+        "Tell me about Surya Namaskar",
+        "What are the benefits of Surya Namaskar?",
+        "How many rounds of Surya Namaskar should I do?",
+        "What is Sun Salutation?"
+      ],
+      "responses": [
+        "Surya Namaskar, or Sun Salutation, is a series of 12 yoga poses performed in a sequence to greet the sun. It helps improve flexibility, strength, and overall well-being.To perform Surya Namaskar, start in Tadasana (Mountain Pose) and flow through a series of poses such as Downward Dog, Plank, Cobra, and more.Surya Namaskar helps improve circulation, stretches the body, and can be a great way to energize yourself in the morning.It is often recommended to perform 12 rounds of Surya Namaskar, but the number can be adjusted based on your fitness level."
+      ]
+    },
+    {
+      "tag": "gomukhasana",
+      "patterns": [
+        "What is Gomukhasana?",
+        "How do I do Gomukhasana?",
+        "Tell me about the Cow Face Pose",
+        "What are the benefits of Gomukhasana?",
+        "Is Gomukhasana good for my shoulders?"
+      ],
+      "responses": [
+        "Gomukhasana, or Cow Face Pose, is a seated yoga posture that helps stretch the shoulders, hips, and thighs while promoting relaxation and flexibility.To perform Gomukhasana, sit with your legs crossed, then bring one arm behind your back and the other over your shoulder, clasping your hands together if possible.Gomukhasana is great for improving shoulder mobility, stretching the hip flexors, and relieving tension in the body.This pose can be particularly helpful for people with tight shoulders or hips, as it helps open up those areas."
+      ]
+    },
+    {
+      "tag": "stress_anxiety",
+      "patterns": [
+        "What yoga is good for stress?",
+        "Which pranayama can help reduce anxiety?",
+        "Yoga for stress relief"
+      ],
+      "responses": ["For stress and anxiety, try practicing Nadi Shodhana (Alternate Nostril Breathing), which helps calm the mind and balance emotions.For anxiety, Udgiet Pranayama (Om Chanting) is beneficial, as it helps lower anxiety levels and promotes relaxation.Yoga poses like Tadasana (Mountain Pose), Vrikshasana (Tree Pose), and Bhujangasana (Cobra Pose) are also great for reducing stress"
+      ]
+    },
+    {
+      "tag": "back_pain_yoga",
+      "patterns": [
+        "Which yoga is good for back pain?",
+        "How can I relieve back pain with yoga?",
+        "Yoga poses for lower back pain"
+      ],
+      "responses": [
+        "For back pain relief, try practicing Bhujangasana (Cobra Pose), which strengthens the spine and relieves tension.Tadasana (Mountain Pose) is excellent for improving posture and relieving back pain.Goumukhasana (Cow Face Pose) is also helpful for relieving shoulder and back pain, especially around the neck and spine."
+      ]
+    },
+    {
+      "tag": "digestion",
+      "patterns": [
+        "What pranayama is good for digestion?",
+        "Yoga for better digestion",
+        "Which pranayama can help with digestive problems?"
+      ],
+      "responses": [
+        "Kapalbhati (Breath of Fire) helps with digestion by detoxifying the digestive system and stimulating the abdominal organs.","Bhujangasana (Cobra Pose) and Pavanmuktasana (Wind-Relieving Pose) are beneficial for improving digestion and relieving bloating.For digestion issues, practicing Bhastrika (Bellows Breath) is also effective as it increases oxygen flow to the digestive organs."
+      ]
+    },
+    {
+      "tag": "insomnia",
+      "patterns": [
+        "What yoga poses help with sleep?",
+        "Which pranayama helps with insomnia?",
+        "Yoga for better sleep"
+      ],
+      "responses": [
+        "For insomnia, try practicing Udgiet Pranayama (Om Chanting) and Nadi Shodhana (Alternate Nostril Breathing) to calm the nervous system.Yoga poses like Supta Baddha Konasana (Reclining Bound Angle Pose) and Savasana (Corpse Pose) promote deep relaxation and restful sleep.Pranayamas like Bhramari (Bee Breath) and Anulom Vilom are also very effective for improving sleep quality."
+      ]
+    },
+    {
+      "tag": "hypertension",
+      "patterns": [
+        "Which yoga is good for high blood pressure?Yoga poses for hypertensionHow can yoga help reduce high blood pressure?"
+      ],
+      "responses": [
+        "For high blood pressure, try practicing gentle pranayama techniques like Nadi Shodhana (Alternate Nostril Breathing) to relax and lower stress levels.Shavasana (Corpse Pose) is known for its calming effect, which helps in controlling blood pressure.Vrikshasana (Tree Pose) and Tadasana (Mountain Pose) are also beneficial for regulating blood pressure."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "Which yoga is good for weight loss?",
+        "Yoga poses to lose weight",
+        "What pranayama is good for weight loss?"
+      ],
+      "responses": [
+        "Kapalbhati (Breath of Fire) is one of the best pranayama techniques for weight loss, as it helps burn fat and boosts metabolism.Surya Namaskar (Sun Salutation) is an excellent yoga sequence for weight loss, as it activates multiple muscle groups and increases calorie burn.Postures like Utkatasana (Chair Pose) and Trikonasana (Triangle Pose) help tone the body and support weight management."
+      ]
+    },
+    {
+      "tag": "joint_pain",
+      "patterns": [
+        "Which yoga poses are good for joint pain?",
+        "Yoga for arthritis",
+        "What pranayama is good for joint pain?"
+      ],
+      "responses": [
+        "For joint pain relief, gentle yoga poses like Tadasana (Mountain Pose) and Setu Bandhasana (Bridge Pose) help improve flexibility and strength without straining joints.Utkatasana (Chair Pose) and Trikonasana (Triangle Pose) can help in easing joint stiffness and improving mobility.Pranayamas like Anulom Vilom (Nadi Shodhana) help to relieve tension in the body and improve joint function."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "What yoga poses are safe during pregnancy?",
+        "Can yoga help with pregnancy?",
+        "Which pranayama should be avoided during pregnancy?"
+      ],
+      "responses": [
+        "During pregnancy, gentle yoga poses like Tadasana (Mountain Pose) and Vrikshasana (Tree Pose) are great for strengthening the body without straining it.Savasana (Corpse Pose) is a relaxing posture that helps reduce anxiety and tension during pregnancy.Breathing techniques like Ujjayi Pranayama and Nadi Shodhana are safe and beneficial during pregnancy, promoting relaxation and better oxygenation."
+      ]
+    },
+    {
+      "tag": "asthma",
+      "patterns": [
+        "Which pranayama is good for asthma?",
+        "Yoga for asthma relief",
+        "What yoga poses help with asthma?"
+      ],
+      "responses": [
+  "For asthma relief, Ujjayi Pranayama (Victorious Breath) helps to open the airways and improve lung capacity. Bhujangasana (Cobra Pose) and Setu Bandhasana (Bridge Pose) help open the chest and improve breathing.Pranayamas like Bhastrika (Bellows Breath) and Nadi Shodhana (Alternate Nostril Breathing) are effective in improving respiratory health."
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "What yoga poses are good for diabetes?",
+        "Yoga for controlling diabetes",
+        "Which pranayama helps with diabetes?"
+      ],
+      "responses": [
+"Yoga poses like Ardha Matsyendrasana (Half Lord of the Fishes Pose) and Trikonasana (Triangle Pose) help regulate blood sugar levels.Surya Namaskar (Sun Salutation) is great for boosting metabolism and improving insulin sensitivitPranayamas like Kapalbhati (Breath of Fire) and Bhastrika (Bellows Breath) help with detoxification and can aid in better blood circulation."
+      ]
+    },
+    {
+      "tag": "eye_health",
+      "patterns": [
+        "What yoga is good for eye health?",
+        "Yoga poses for eyes",
+        "Which pranayama helps with eye problems?",
+        "How can yoga help with eye diseases?"
+      ],
+      "responses": [
+        "For general eye health, you can practice **Trataka** (Candle Gazing) to improve focus and strengthen eye muscles.Pranayama techniques like **Anulom Vilom** (Alternate Nostril Breathing) help improve blood circulation to the eyes and reduce strain.Yoga poses such as **Sarvangasana** (Shoulder Stand) and **Halasana** (Plow Pose) improve the circulation around the eyes and help reduce fatigue.For **eye strain**, practice **Palming** (rubbing your palms together and gently placing them over closed eyes) to relax the eyes.For **dry eyes**, try **Shitali Pranayama** (Cooling Breath) to soothe and reduce the dryness in the eyes.If you are dealing with **cataracts**, **Trataka** and **Anulom Vilom** pranayama can help by improving focus and blood flow to the eyes.To support **poor vision**, poses like **Sarvangasana** and **Halasana** can enhance circulation to the eyes and improve vision.For **glaucoma**, practice **Sarvangasana**, **Viparita Karani** (Legs Up the Wall), and pranayamas like **Anulom Vilom** and **Bhramari** (Bee Breath) to help reduce intraocular pressure and improve overall eye health."
+      ]
+    },
+    {
+      "tag": "yoga_for_older_adults",
+      "patterns": [
+        "Which yoga poses are good for older adults?",
+        "What yoga poses are safe for elderly people?",
+        "Yoga for senior citizens",
+        "Can elderly people practice yoga?"
+      ],
+      "responses": [
+        "For older adults, gentle yoga poses like **Tadasana** (Mountain Pose), **Vrikshasana** (Tree Pose), and **Bhujangasana** (Cobra Pose) are beneficial to improve flexibility and balance.Seated poses like **Chair Pose**, **Seated Forward Bend**, and **Gentle twists** can help older adults who have limited mobility or balance issues.Pranayamas like **Nadi Shodhana** (Alternate Nostril Breathing) and **Bhramari** (Bee Breath) can help with stress relief and improve lung capacity.Avoid inversions and deep backbends if there are existing joint or spine issues. Focus on restorative poses like **Savasana** (Corpse Pose) and gentle stretches"
+      ]
+    },
+
+    {
+      "tag": "yoga_for_pregnant_women",
+      "patterns": [
+        "Which yoga poses are safe during pregnancy?",
+        "Can pregnant women practice yoga?",
+        "Yoga poses for pregnant women",
+        "What yoga poses are good for pregnancy?"
+      ],
+      "responses": [" Pregnant women can practice poses like **Cat-Cow Pose** (**Marjaryasana-Bitilasana**) to relieve back pain and improve spinal flexibility Gentle poses like **Tree Pose** (**Vrikshasana**) and **Warrior Pose** (**Virabhadrasana**) are good for improving strength and balance Breathing exercises like **Ujjayi Pranayama** and **Nadi Shodhana** (Alternate Nostril Breathing) help calm the mind and reduce anxiety Avoid poses that involve deep backbends, inversions, or lying flat on the back after the first trimester. Always consult with a doctor before practicing yoga during pregnancy."
+      ]
+    },
+    {
+      "tag": "yoga_for_students",
+      "patterns": [
+        "What yoga poses are good for students?",
+        "Yoga for students to improve focus",
+        "Yoga to reduce stress for students",
+        "Which poses can help students focus better?"
+      ],
+      "responses": [
+        "For students, poses like **Padmasana** (Lotus Pose), **Dandasana** (Staff Pose), and **Sukhasana** (Easy Pose) help with focus and concentration.Yoga poses that open up the chest, such as **Bhujangasana** (Cobra Pose) and **Setu Bandhasana** (Bridge Pose), help reduce stress and improve posture.Incorporating pranayama exercises like **Anulom Vilom** (Alternate Nostril Breathing) and **Kapalbhati** (Breath of Fire) can boost mental clarity and relieve anxiety.Regular yoga practice can improve flexibility and reduce tension, making it easier to sit for long study hours without discomfort."
+      ]
+    },
+    {
+      "tag":"yoga_for_adults",
+       "patterns": [
+        "Which yoga poses are good for adults?",
+        "Yoga for adults to stay fit",
+        "What poses help with flexibility for adults?"
+      ],
+      "responses": [
+        "Adults can benefit from poses like **Adho Mukha Svanasana** (Downward Dog), **Trikonasana** (Triangle Pose), and **Uttanasana** (Standing Forward Bend) to improve flexibility.For strength, try **Virabhadrasana** (Warrior Pose), **Utkatasana** (Chair Pose), and **Navasana** (Boat Pose). These poses engage major muscle groups.Incorporating pranayama like **Kapalbhati** and **Bhramari** can boost energy, relieve stress, and promote mental clarity for adults leading a busy lifestyle.Regular yoga practice for adults is beneficial in managing weight, improving digestion, and reducing risk factors for lifestyle-related diseases."
+      ]
+    },
+    {
+      "tag": "yoga_for_disease_free_people",
+      "patterns": [
+        "Which yoga poses are good for people who are healthy?",
+        "Yoga for disease-free people",
+        "What are the best yoga poses for healthy individuals?"
+      ],
+      "responses": [
+        "For disease-free individuals, you can perform a variety of yoga poses to maintain overall health and wellness, such as **Surya Namaskar** (Sun Salutation) to improve strength and flexibility.Incorporate more challenging poses like **Natarajasana** (Dancer Pose), **Ardha Chandrasana** (Half Moon Pose), and **Sirsasana** (Headstand) for balance and mental clarity.Pranayama techniques like **Ujjayi Pranayama** (Victorious Breath) and **Kumbhaka** (Breath Retention) can help increase stamina, lung capacity, and mental focus.To maintain a healthy body and mind, ensure a balanced routine with a combination of strength, flexibility, and breathing exercises."
+      ]
+    },
+    {
+      "tag": "precautions_during_yoga",
+      "patterns": [
+        "What precautions should I take during yoga?",
+        "Are there any safety tips for practicing yoga?",
+        "How to stay safe while doing yoga?",
+        "What should I be careful about during yoga?",
+        "Any precautions to follow before doing yoga?"
+      ],
+      "responses": [
+        "Before starting yoga, always warm up your body to avoid injury. Begin with gentle stretches and gradually increase intensity.Make sure to listen to your body. If you feel pain, stop immediately and consult a doctor or experienced yoga instructoAvoid pushing yourself too hard. Yoga is about balance and breathing, not competition. Focus on your own practicWear comfortable, breathable clothing and use a non-slip yoga mat to prevent falls or injury during poseStay hydrated but avoid heavy meals before yoga. It's best to practice yoga on an empty stomach or wait 2-3 hours after eatinAlways practice under the guidance of a certified yoga instructor, especially when you're new to yoga or trying advanced poseIf you have any pre-existing medical conditions, consult a doctor before starting any yoga practicBe mindful of your breath throughout the practice. Poor breathing techniques can lead to dizziness or hyperventilatioAvoid doing poses that put undue pressure on the neck, spine, or joints if you have existing injuries or conditionWhen doing inversions like **Sarvangasana** (Shoulder Stand) or **Sirsasana** (Headstand), make sure you are well-supported and practice under supervision."
+      ]
     }
+  
+
   ]
 }
