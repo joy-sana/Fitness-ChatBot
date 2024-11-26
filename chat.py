@@ -27,30 +27,7 @@ model.eval()
 
 bot_name = "Hanny"
 
-# def get_response(msg):
-#     sentence = tokenize(msg)
-#     X = bag_of_words(sentence, all_words)
-#     X = X.reshape(1, X.shape[0])
-#     X = torch.from_numpy(X).to(device)
-
-#     output = model(X)
-#     _, predicted = torch.max(output, dim=1)
-
-#     tag = tags[predicted.item()]
-
-#     probs = torch.softmax(output, dim=1)
-#     prob = probs[0][predicted.item()]
-#     if prob.item() > 0.75:
-#         for intent in intents['intents']:
-#             if tag == intent["tag"]:
-#                 return random.choice(intent['responses'])
-    
-#     return "I do not understand..."
-
-context = None  # Global variable to store the current context
-
 def get_response(msg):
-    global context
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -66,15 +43,38 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                # Check if context is required
-                if "context_set" in intent:
-                    context = intent["context_set"]
-                if "context_filter" in intent:
-                    if context != intent["context_filter"]:
-                        return "I don't understand..."
                 return random.choice(intent['responses'])
-
+    
     return "I do not understand..."
+
+context = None  # Global variable to store the current context
+
+# def get_response(msg):
+#     global context
+#     sentence = tokenize(msg)
+#     X = bag_of_words(sentence, all_words)
+#     X = X.reshape(1, X.shape[0])
+#     X = torch.from_numpy(X).to(device)
+
+#     output = model(X)
+#     _, predicted = torch.max(output, dim=1)
+
+#     tag = tags[predicted.item()]
+
+#     probs = torch.softmax(output, dim=1)
+#     prob = probs[0][predicted.item()]
+#     if prob.item() > 0.75:
+#         for intent in intents['intents']:
+#             if tag == intent["tag"]:
+#                 # Check if context is required
+#                 if "context_set" in intent:
+#                     context = intent["context_set"]
+#                 if "context_filter" in intent:
+#                     if context != intent["context_filter"]:
+#                         return "I don't understand..."
+#                 return random.choice(intent['responses'])
+
+#     return "I do not understand..."
 
 
 if __name__ == "__main__":
