@@ -14,7 +14,7 @@
         "Is anyone there?"
       ],
       "responses": [
-        "Hey there! 😊 How can I assist you on your fitness journey today?",
+        "Hey there! How can I assist you on your fitness journey today?",
         "Hi! Ask me about workouts, nutrition, or anything fitness-related.",
         "Hello! I'm here to help you stay healthy and motivated."
       ]
@@ -290,7 +290,9 @@
       "patterns": [
         "How do I do a proper push-up?",
         "What is the correct form for push-ups?",
-        "Can you explain how to do push-ups?"
+        "Can you explain how to do push-ups?",
+        "How to do pushup",
+         "How to do push ups"
       ],
       "responses": [
         "For push-ups, keep your hands shoulder-width apart, lower your body until your chest is close to the ground, and push back up while keeping your core tight."
@@ -304,7 +306,7 @@
         "Can you guide me on burpees?"
       ],
       "responses": [
-        "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively. Want a step-by-step video?"
+        "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively."
       ]
     },
     {
@@ -348,7 +350,7 @@
         "How should I perform squats?"
       ],
       "responses": [
-        "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes. Want a video tutorial link?"
+        "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes."
       ]
     },
     {
@@ -367,7 +369,9 @@
       "patterns": [
         "What is the correct form for pull-ups?",
         "How do I perform pull-ups?",
-        "Can you guide me on pull-ups?"
+        "Can you guide me on pull-ups?",
+        "How to do pullups",
+        "How to do pull ups"
       ],
       "responses": [
         "Pull-ups require a strong grip on the bar, pulling your chest towards the bar, and lowering yourself slowly."
@@ -590,7 +594,7 @@
         "What time should I eat breakfast?"
       ],
       "responses": [
-        "For optimal nutrition, try:\n- Breakfast: Within an hour of waking up\n- Lunch: Mid-day, between 12-2 PM\n- Dinner: 3-4 hours before bed\n- Snacks: As needed, focusing on healthy options. Want personalized meal timing?"
+        "For optimal nutrition, try:\n- Breakfast: Within an hour of waking up\n- Lunch: Mid-day, between 12-2 PM\n- Dinner: 3-4 hours before bed\n- Snacks: As needed, focusing on healthy options."
       ]
     },
     {
@@ -602,7 +606,7 @@
         "What are good morning meals?"
       ],
       "responses": [
-        "A healthy breakfast could include:\n- Whole-grain toast with eggs\n- Oatmeal topped with fruits and nuts\n- Greek yogurt with berries\n\nWould you like more breakfast recipes?"
+        "A healthy breakfast could include:\n- Whole-grain toast with eggs\n- Oatmeal topped with fruits and nuts\n- Greek yogurt with berries"
       ]
     },
     {
@@ -614,7 +618,7 @@
         "Give me ideas for a healthy lunch"
       ],
       "responses": [
-        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil). Need quick lunch ideas?"
+        "A balanced lunch might include:\n- Lean protein (chicken, fish, tofu)\n- Whole grains (quinoa, brown rice)\n- Vegetables (spinach, broccoli, etc.)\n- A healthy fat source (avocado, olive oil)."
       ]
     },
     {
@@ -626,7 +630,7 @@
         "Suggestions for dinner?"
       ],
       "responses": [
-        "Dinner should be lighter but nutritious. Try:\n- Grilled fish or chicken with steamed veggies\n- Lentil soup with a side salad\n- Stir-fried tofu with mixed vegetables. Want more low-calorie options?"
+        "Dinner should be lighter but nutritious. Try:\n- Grilled fish or chicken with steamed veggies\n- Lentil soup with a side salad\n- Stir-fried tofu with mixed vegetables."
       ]
     },
     {
@@ -662,7 +666,7 @@
         "What should I eat to lose weight?"
       ],
       "responses": [
-        "For weight loss:\n- Focus on high-protein, low-carb meals\n- Include lots of vegetables and whole grains\n- Avoid processed foods and sugary drinks\n- Practice portion control. Need a detailed meal plan?"
+        "For weight loss:\n- Focus on high-protein, low-carb meals\n- Include lots of vegetables and whole grains\n- Avoid processed foods and sugary drinks\n- Practice portion control."
       ]
     },
     {
@@ -674,7 +678,7 @@
         "Give me a muscle-gain meal plan"
       ],
       "responses": [
-        "For muscle gain:\n- Increase protein intake (chicken, eggs, lentils)\n- Eat complex carbs like oats and brown rice\n- Include healthy fats (avocados, nuts)\n- Ensure a calorie surplus. Want specific meal ideas?"
+        "For muscle gain:\n- Increase protein intake (chicken, eggs, lentils)\n- Eat complex carbs like oats and brown rice\n- Include healthy fats (avocados, nuts)\n- Ensure a calorie surplus."
       ]
     },
     {
@@ -686,7 +690,7 @@
         "What is a balanced vegetarian diet?"
       ],
       "responses": [
-        "For a vegetarian diet:\n- Protein: Lentils, tofu, chickpeas\n- Carbs: Quinoa, whole wheat bread\n- Fats: Avocado, olive oil, nuts\n- Vegetables: Spinach, broccoli, carrots. Would you like a weekly vegetarian plan?"
+        "For a vegetarian diet:\n- Protein: Lentils, tofu, chickpeas\n- Carbs: Quinoa, whole wheat bread\n- Fats: Avocado, olive oil, nuts\n- Vegetables: Spinach, broccoli, carrots."
       ]
     },
     {
@@ -698,7 +702,7 @@
         "Tell me about cheat meals"
       ],
       "responses": [
-        "Cheat meals are fine in moderation! Use them as a reward for sticking to your diet. Focus on portion control even when indulging. Want tips to minimize their impact?"
+        "Cheat meals are fine in moderation! Use them as a reward for sticking to your diet. Focus on portion control even when indulging."
       ]
     },
     {
@@ -710,7 +714,7 @@
         "How to avoid overeating?"
       ],
       "responses": [
-        "For portion control:\n- Use smaller plates to serve food\n- Divide your plate: Half veggies, a quarter protein, and a quarter carbs\n- Avoid second servings unless truly hungry. Want a portioning guide?"
+        "For portion control:\n- Use smaller plates to serve food\n- Divide your plate: Half veggies, a quarter protein, and a quarter carbs\n- Avoid second servings unless truly hungry."
       ]
     },
     {
@@ -722,7 +726,7 @@
         "Can you suggest protein-rich meals?"
       ],
       "responses": [
-        "For a high-protein diet, focus on foods like:\n- Lean meats (chicken, turkey)\n- Fish (salmon, tuna)\n- Plant-based proteins (tofu, lentils, chickpeas)\n- Dairy (Greek yogurt, cottage cheese)\n- Nuts and seeds. Want meal ideas rich in protein?"
+        "For a high-protein diet, focus on foods like:\n- Lean meats (chicken, turkey)\n- Fish (salmon, tuna)\n- Plant-based proteins (tofu, lentils, chickpeas)\n- Dairy (Greek yogurt, cottage cheese)\n- Nuts and seeds."
       ]
     },
     {
@@ -734,7 +738,7 @@
         "How can I reduce my carb intake?"
       ],
       "responses": [
-        "A low-carb diet focuses on reducing carbohydrates like sugars and starches. Some good low-carb options are:\n- Leafy greens (spinach, kale)\n- Non-starchy vegetables (cauliflower, zucchini)\n- Protein (chicken, fish, eggs)\n- Nuts and seeds. Need low-carb meal ideas?"
+        "A low-carb diet focuses on reducing carbohydrates like sugars and starches. Some good low-carb options are:\n- Leafy greens (spinach, kale)\n- Non-starchy vegetables (cauliflower, zucchini)\n- Protein (chicken, fish, eggs)\n- Nuts and seeds."
       ]
     },
     {
@@ -746,7 +750,7 @@
         "Is intermittent fasting good for weight loss?"
       ],
       "responses": [
-        "Intermittent fasting is an eating pattern where you cycle between periods of eating and fasting. Common schedules include 16:8 (16 hours fasting, 8 hours eating) or 5:2 (5 days of normal eating, 2 days of calorie restriction). It may help with weight loss and improve metabolic health. Want tips to get started?"
+        "Intermittent fasting is an eating pattern where you cycle between periods of eating and fasting. Common schedules include 16:8 (16 hours fasting, 8 hours eating) or 5:2 (5 days of normal eating, 2 days of calorie restriction). It may help with weight loss and improve metabolic health."
       ]
     },
     {
@@ -758,7 +762,7 @@
         "Give me a guide on meal prepping"
       ],
       "responses": [
-        "Meal prepping is a great way to save time and stay on track with your diet. Here are some tips:\n- Choose simple recipes that can be made in bulk\n- Cook in large batches and divide meals into containers\n- Use a variety of proteins, carbs, and vegetables\n- Label meals with dates. Need help planning your weekly prep?"
+        "Meal prepping is a great way to save time and stay on track with your diet. Here are some tips:\n- Choose simple recipes that can be made in bulk\n- Cook in large batches and divide meals into containers\n- Use a variety of proteins, carbs, and vegetables\n- Label meals with dates."
       ]
     },
     {
@@ -770,7 +774,7 @@
         "What are healthy options at restaurants?"
       ],
       "responses": [
-        "When eating out, try these tips:\n- Opt for grilled or steamed dishes instead of fried\n- Ask for dressings or sauces on the side\n- Choose a salad or vegetable-heavy dish\n- Avoid large portions or share with someone\n- Drink water instead of sugary drinks. Need restaurant-specific suggestions?"
+        "When eating out, try these tips:\n- Opt for grilled or steamed dishes instead of fried\n- Ask for dressings or sauces on the side\n- Choose a salad or vegetable-heavy dish\n- Avoid large portions or share with someone\n- Drink water instead of sugary drinks."
       ]
     },
     {
@@ -782,7 +786,7 @@
         "Give me vegan food ideas"
       ],
       "responses": [
-        "A vegan diet excludes all animal products. Key vegan food groups include:\n- Protein: Tofu, tempeh, lentils, beans\n- Grains: Quinoa, brown rice, oats\n- Vegetables: Leafy greens, sweet potatoes, bell peppers\n- Healthy fats: Avocados, nuts, olive oil. Would you like a vegan meal plan?"
+        "A vegan diet excludes all animal products. Key vegan food groups include:\n- Protein: Tofu, tempeh, lentils, beans\n- Grains: Quinoa, brown rice, oats\n- Vegetables: Leafy greens, sweet potatoes, bell peppers\n- Healthy fats: Avocados, nuts, olive oil."
       ]
     },
     {
@@ -794,7 +798,7 @@
         "Why is fiber important for my health?"
       ],
       "responses": [
-        "Fiber is essential for digestion and can help with weight management. Good sources of fiber include:\n- Whole grains (oats, quinoa)\n- Beans and legumes (lentils, chickpeas)\n- Fruits (apples, pears, berries)\n- Vegetables (broccoli, spinach, carrots)\n- Nuts and seeds. Want to add more fiber to your meals?"
+        "Fiber is essential for digestion and can help with weight management. Good sources of fiber include:\n- Whole grains (oats, quinoa)\n- Beans and legumes (lentils, chickpeas)\n- Fruits (apples, pears, berries)\n- Vegetables (broccoli, spinach, carrots)\n- Nuts and seeds."
       ]
     },
     {
@@ -806,7 +810,7 @@
         "How can I include more healthy fats in my diet?"
       ],
       "responses": [
-        "Healthy fats are important for brain function and overall health. Good sources include:\n- Avocados\n- Nuts and seeds\n- Olive oil\n- Fatty fish (salmon, mackerel)\n- Coconut oil. Need help adding healthy fats to your meals?"
+        "Healthy fats are important for brain function and overall health. Good sources include:\n- Avocados\n- Nuts and seeds\n- Olive oil\n- Fatty fish (salmon, mackerel)\n- Coconut oil."
       ]
     },
     {
@@ -818,7 +822,7 @@
         "What are some gluten-free alternatives?"
       ],
       "responses": [
-        "A gluten-free diet excludes wheat, barley, and rye. Good gluten-free options include:\n- Grains like rice, quinoa, and corn\n- Fruits and vegetables\n- Lean proteins (chicken, fish, tofu)\n- Gluten-free pasta and bread. Need gluten-free recipes?"
+        "A gluten-free diet excludes wheat, barley, and rye. Good gluten-free options include:\n- Grains like rice, quinoa, and corn\n- Fruits and vegetables\n- Lean proteins (chicken, fish, tofu)\n- Gluten-free pasta and bread."
       ]
     },
     {
@@ -830,7 +834,7 @@
         "How do I follow a ketogenic diet?"
       ],
       "responses": [
-        "The keto diet is high in fats and very low in carbohydrates. Some foods to include are:\n- Avocados, nuts, seeds\n- Fatty fish (salmon, mackerel)\n- Cheese and butter\n- Leafy greens and low-carb vegetables\nAvoid: Bread, pasta, and sugary foods. Need keto meal ideas?"
+        "The keto diet is high in fats and very low in carbohydrates. Some foods to include are:\n- Avocados, nuts, seeds\n- Fatty fish (salmon, mackerel)\n- Cheese and butter\n- Leafy greens and low-carb vegetables\nAvoid: Bread, pasta, and sugary foods."
       ]
     },
     {
@@ -842,7 +846,7 @@
         "What foods are included in the Mediterranean diet?"
       ],
       "responses": [
-        "The Mediterranean diet is rich in whole grains, lean proteins, and healthy fats, particularly olive oil. Foods include:\n- Fish and seafood (rich in omega-3)\n- Whole grains (quinoa, brown rice)\n- Vegetables and fruits\n- Olive oil and nuts. Would you like Mediterranean meal suggestions?"
+        "The Mediterranean diet is rich in whole grains, lean proteins, and healthy fats, particularly olive oil. Foods include:\n- Fish and seafood (rich in omega-3)\n- Whole grains (quinoa, brown rice)\n- Vegetables and fruits\n- Olive oil and nuts."
       ]
     },
     {
@@ -854,7 +858,7 @@
         "How do I follow the paleo diet?"
       ],
       "responses": [
-        "The paleo diet focuses on eating whole, unprocessed foods like:\n- Meat (grass-fed, wild-caught)\n- Fish and seafood\n- Fruits and vegetables\n- Nuts and seeds\n- Avoid: Dairy, grains, and processed foods. Need a paleo recipe?"
+        "The paleo diet focuses on eating whole, unprocessed foods like:\n- Meat (grass-fed, wild-caught)\n- Fish and seafood\n- Fruits and vegetables\n- Nuts and seeds\n- Avoid: Dairy, grains, and processed foods."
       ]
     },
     {
@@ -866,7 +870,7 @@
         "Give me low-FODMAP meal ideas"
       ],
       "responses": [
-        "A low-FODMAP diet is designed to reduce foods that trigger digestive issues. Some options include:\n- Low-FODMAP fruits (bananas, blueberries)\n- Lean meats and fish\n- Gluten-free grains (rice, oats)\n- Lactose-free dairy products. Need low-FODMAP meal suggestions?"
+        "A low-FODMAP diet is designed to reduce foods that trigger digestive issues. Some options include:\n- Low-FODMAP fruits (bananas, blueberries)\n- Lean meats and fish\n- Gluten-free grains (rice, oats)\n- Lactose-free dairy products."
       ]
     },
     {
@@ -878,7 +882,7 @@
         "How can I control blood sugar through diet?"
       ],
       "responses": [
-        "For diabetes management, focus on:\n- High-fiber foods (vegetables, legumes)\n- Lean proteins (chicken, fish)\n- Whole grains (brown rice, quinoa)\n- Low-glycemic fruits (berries, apples)\n- Avoid sugary snacks and processed foods. Want a meal plan for diabetes?"
+        "For diabetes management, focus on:\n- High-fiber foods (vegetables, legumes)\n- Lean proteins (chicken, fish)\n- Whole grains (brown rice, quinoa)\n- Low-glycemic fruits (berries, apples)\n- Avoid sugary snacks and processed foods."
       ]
     },
     {
@@ -890,7 +894,7 @@
         "What should I eat to lower cholesterol?"
       ],
       "responses": [
-        "A heart-healthy diet includes:\n- Omega-3-rich foods (salmon, flaxseeds)\n- Whole grains (oats, brown rice)\n- Healthy fats (olive oil, avocado)\n- Fruits and vegetables (especially leafy greens)\n- Low-sodium options. Need heart-healthy meal suggestions?"
+        "A heart-healthy diet includes:\n- Omega-3-rich foods (salmon, flaxseeds)\n- Whole grains (oats, brown rice)\n- Healthy fats (olive oil, avocado)\n- Fruits and vegetables (especially leafy greens)\n- Low-sodium options."
       ]
     },
     {
@@ -902,7 +906,7 @@
         "What foods improve gut health?"
       ],
       "responses": [
-        "For gut health, focus on:\n- Probiotic-rich foods (yogurt, kimchi, kefir)\n- High-fiber foods (beans, vegetables, fruits)\n- Bone broth\n- Hydration (water, herbal teas). Want a gut-health meal plan?"
+        "For gut health, focus on:\n- Probiotic-rich foods (yogurt, kimchi, kefir)\n- High-fiber foods (beans, vegetables, fruits)\n- Bone broth\n- Hydration (water, herbal teas)."
       ]
     },
     {
@@ -914,7 +918,7 @@
         "What foods are high in calcium and vitamin D?"
       ],
       "responses": [
-        "For bone health, include:\n- Calcium-rich foods (dairy, leafy greens, almonds)\n- Vitamin D-rich foods (salmon, egg yolks, fortified milk)\n- Magnesium-rich foods (spinach, pumpkin seeds). Want bone-healthy meal ideas?"
+        "For bone health, include:\n- Calcium-rich foods (dairy, leafy greens, almonds)\n- Vitamin D-rich foods (salmon, egg yolks, fortified milk)\n- Magnesium-rich foods (spinach, pumpkin seeds)."
       ]
     },
     {
@@ -938,7 +942,7 @@
         "What are the benefits of creatine?"
       ],
       "responses": [
-        "Specialized supplements include:\n- Collagen (for skin, joints, and bones)\n- Creatine (for muscle strength and performance)\n- Probiotics (for gut health)\n- Magnesium (for sleep and muscle function). Want a guide on specialized supplementation?"
+        "Specialized supplements include:\n- Collagen (for skin, joints, and bones)\n- Creatine (for muscle strength and performance)\n- Probiotics (for gut health)\n- Magnesium (for sleep and muscle function)."
       ]
     },
     {
@@ -950,7 +954,7 @@
         "What are common diet myths?"
       ],
       "responses": [
-        "Let’s debunk some common diet myths:\n- Carbs are not inherently bad; focus on complex carbs\n- Healthy fats are essential for body function\n- Breakfast is important, but it's not mandatory if intermittent fasting works for you\n- Eating late at night doesn’t automatically cause weight gain. Want to know more?"
+        "Let’s debunk some common diet myths:\n- Carbs are not inherently bad; focus on complex carbs\n- Healthy fats are essential for body function\n- Breakfast is important, but it's not mandatory if intermittent fasting works for you\n- Eating late at night doesn’t automatically cause weight gain."
       ]
     },
     {
@@ -1040,7 +1044,7 @@
         "I'm done"
       ],
       "responses": [
-        "See you later! Keep up the great work with your fitness goals! 😊",
+        "See you later! Keep up the great work with your fitness goals!",
         "Goodbye! Come back anytime for more tips and guidance."
       ]
     },
@@ -1052,9 +1056,51 @@
         "Make me laugh!"
       ],
       "responses": [
-        "Why did the treadmill bring a date to the gym? It wanted to go the extra mile!",
-        "What’s a fitness coach’s favorite game? Follow the leaderboards!",
-        "Why did the gym close? It didn’t work out."
+        "What's a fitness coach's favorite game? Follow the leaderboards!",
+        "Why don 't skeletons ever start a fitness program? They don 't have the guts.",
+        "Why did the dumbbell break up with the barbell? It found the relationship too heavy to handle.",
+        "Why did the runner go broke? He ran out of change.",
+        "Why did the weightlifter bring a ladder to the gym? To reach new heights in their training.",
+        "What's a gym rat's favorite type of music? Heavy metal."
+      ]
+    },
+    {
+      "tag": "calorie_deficit",
+      "patterns": [
+        "What is a calorie deficit?",
+        "Explain calorie deficit.",
+        "How does a calorie deficit work?",
+        "What does calorie deficit mean?",
+        "Can you tell me about calorie deficit?",
+        "Why is calorie deficit important?",
+        "How do I achieve a calorie deficit?"
+      ],
+      "responses": [
+        "A calorie deficit occurs when you consume fewer calories than your body needs to maintain its current weight. This forces your body to use stored fat for energy, which can lead to weight loss.",
+        "To create a calorie deficit, you need to either eat fewer calories or burn more through exercise. When this balance is achieved, your body will start burning fat for fuel.",
+        "A calorie deficit is essential for weight loss. It's when your body burns more calories than it takes in. This can be done by eating less or increasing physical activity to burn more calories.",
+        "When you're in a calorie deficit, your body is not getting all the calories it needs, so it starts using stored fat for energy, leading to weight loss.",
+        "A calorie deficit is when you consume fewer calories than your body needs. This is the key to losing weight in a healthy way."
+      ]
+    },
+    {
+      "tag": "hiit",
+      "patterns": [
+        "What is HIIT?",
+        "Explain HIIT.",
+        "What does HIIT stand for?",
+        "Can you tell me about HIIT?",
+        "How does HIIT work?",
+        "What are the benefits of HIIT?",
+        "Why should I try HIIT?",
+        "What are HIIT workouts?"
+      ],
+      "responses": [
+        "HIIT stands for High-Intensity Interval Training. It’s a form of exercise where you alternate between short bursts of intense activity and periods of rest or low-intensity exercises.",
+        "HIIT (High-Intensity Interval Training) involves short, intense bursts of exercise followed by brief recovery periods. This style of workout improves cardiovascular health, burns fat, and builds strength in a short amount of time.",
+        "High-Intensity Interval Training (HIIT) is an effective workout that alternates between maximum effort and recovery periods, making it great for burning fat, improving endurance, and saving time.",
+        "HIIT workouts consist of short bursts of very intense activity followed by a rest period. This type of training maximizes fat burning and can improve fitness in a shorter time than steady-state cardio.",
+        "HIIT is a type of cardiovascular exercise where you alternate between high-intensity efforts and low-intensity recovery periods. This style of training boosts metabolism and increases fat loss."
       ]
     },
 
